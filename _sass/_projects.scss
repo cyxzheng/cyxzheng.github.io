@@ -26,6 +26,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         opacity: 0;
         transition: all 1s;
         -webkit-transition: all 1s;
@@ -36,7 +37,13 @@
             font-size: $heading-size;
             font-weight: $regular;
             color: $black;
-            margin-left: 24px;
+        }
+
+        p {
+            font-family: $sans-serif;
+            font-size: $body-size;
+            font-weight: $regular;
+            color: $black;
         }
     }
 
