@@ -1,11 +1,13 @@
 <section class="projects">
     <div class="container">
-        <a href="#" class="project-thumbnail">
-            <img src="/assets/images/projects/property/Cover.png">
+        {% for project in site.projects %}
+        <a href="{{ project.url }}" class="project-thumbnail">
+            <img src="{{ project.thumbnail | prepend: site.baseurl }}">
             <div class="overlay">
-                <h1>Project Name</h1>
-                <p>Project short description here.</p>
+                <h1>{{ project.title }}</h1>
+                <p>{{ project.preview }}</p>
             </div>
         </a>
+        {% endfor %}
     </div>
 </section>

@@ -37,27 +37,7 @@ nav {
       nav ul li a {
         text-decoration: none;
         color: #152425;
-        border: none;
-        /*display: inline-block;
-        position: relative;*/
-                /*&:before {
-                    background: $green;
-                    content: '';
-                    width: 100%;
-                    height: 2px;
-                    bottom: -6px;
-                    position: absolute;
-                }
-
-                &:hover {
-                    &:before {
-                        height: 4px;
-                    }
-
-                    a {
-                        color: $green;
-                    }
-                }*/ }
+        border: none; }
     nav ul li:last-child {
       margin-right: 0; }
 
