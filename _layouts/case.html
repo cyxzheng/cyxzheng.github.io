@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+{% include head.html %}
+
+<body>
+    {% include nav.html %}
+    <div class="container">
+        <div class="case-intro">
+            {% if page.title %}
+            <h1>{{ page.title }}</h1>
+            {% endif %}
+        </div>
+        <div class="case-cover">
+            {% if page.thumbnail %}
+            <img src="{{ page.thumbnail | prepend: site.baseurl }}">
+            {% endif %}
+        </div>
+        <div class="case-text">
+            {{ content }}
+        </div>
+    </div>
+</body>
+
+</html>

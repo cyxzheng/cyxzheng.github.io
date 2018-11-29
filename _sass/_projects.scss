@@ -44,6 +44,7 @@
             font-size: $body-size;
             font-weight: $regular;
             color: $black;
+            line-height: $paragraph
         }
     }
 
@@ -84,6 +85,7 @@
         font-size: $body-size;
         margin-top: 0;
         color: $black;
+        line-height: $paragraph;
     }
 }
 

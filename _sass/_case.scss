@@ -1,0 +1,61 @@
+.case-intro {
+    grid-column: span 12;
+    height: 100%;
+    margin: 72px 0 72px 0;
+    background: $black;
+
+    //do the thing where the top part is the blurb
+
+    h1 {
+        font-family: $serif;
+        color: $black;
+        font-size: $heading-size;
+        line-height: $heading;
+        font-weight: $regular;
+        text-align: center;
+    }
+
+    p {
+        font-family: $sans-serif;
+        color: $black;
+        font-size: $body-size;
+        line-height: $paragraph;
+    }
+}
+
+.case-cover {
+    grid-column: span 12;
+
+    img {
+        width: 100%;
+        display: block;
+    }
+}
+
+.case-text {
+    grid-column: 4/10;
+    margin: 72px 0 72px 0;
+
+    h1 {
+        font-family: $serif;
+        color: $black;
+        font-size: $heading-size;
+        line-height: $heading;
+        font-weight: $regular;
+    }
+
+    h3 {
+        font-family: $serif;
+        color: $black;
+        font-size: $subheader-size;
+        line-height: $subheader;
+        font-weight: $regular;
+    }
+
+    p {
+        font-family: $sans-serif;
+        color: $black;
+        font-size: $body-size;
+        line-height: $paragraph;
+    }
+}

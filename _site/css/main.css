@@ -53,7 +53,8 @@ footer .footer-text {
     font-family: "Nunito", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #152425; }
+    color: #152425;
+    line-height: 28.8px; }
 
 .hero-text {
   grid-column: span 6;
@@ -67,7 +68,8 @@ footer .footer-text {
     font-family: "Nunito", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #152425; }
+    color: #152425;
+    line-height: 28.8px; }
 
 .project-thumbnail {
   grid-column: span 12;
@@ -108,7 +110,8 @@ footer .footer-text {
       font-family: "Nunito", sans-serif;
       font-size: 16px;
       font-weight: 400;
-      color: #152425; }
+      color: #152425;
+      line-height: 28.8px; }
   .project-thumbnail:hover {
     border: none;
     box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.1); }
@@ -134,7 +137,53 @@ footer .footer-text {
     font-weight: 400;
     font-size: 16px;
     margin-top: 0;
-    color: #152425; }
+    color: #152425;
+    line-height: 28.8px; }
 
 .project-thumbnail:last-child {
   margin-bottom: 0; }
+
+.case-intro {
+  grid-column: span 12;
+  height: 100%;
+  margin: 72px 0 72px 0;
+  background: #152425; }
+  .case-intro h1 {
+    font-family: "Playfair Display", serif;
+    color: #152425;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: center; }
+  .case-intro p {
+    font-family: "Nunito", sans-serif;
+    color: #152425;
+    font-size: 16px;
+    line-height: 28.8px; }
+
+.case-cover {
+  grid-column: span 12; }
+  .case-cover img {
+    width: 100%;
+    display: block; }
+
+.case-text {
+  grid-column: 4/10;
+  margin: 72px 0 72px 0; }
+  .case-text h1 {
+    font-family: "Playfair Display", serif;
+    color: #152425;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400; }
+  .case-text h3 {
+    font-family: "Playfair Display", serif;
+    color: #152425;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400; }
+  .case-text p {
+    font-family: "Nunito", sans-serif;
+    color: #152425;
+    font-size: 16px;
+    line-height: 28.8px; }
