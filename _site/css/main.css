@@ -144,22 +144,35 @@ footer .footer-text {
   margin-bottom: 0; }
 
 .case-intro {
-  grid-column: span 12;
+  width: 100%;
   height: 100%;
-  margin: 72px 0 72px 0;
   background: #152425; }
+  .case-intro .container {
+    padding: 72px 0 72px 0; }
   .case-intro h1 {
     font-family: "Playfair Display", serif;
-    color: #152425;
+    color: #ffffff;
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
-    text-align: center; }
+    text-align: center;
+    grid-column: span 12; }
   .case-intro p {
     font-family: "Nunito", sans-serif;
-    color: #152425;
+    color: #ffffff;
     font-size: 16px;
-    line-height: 28.8px; }
+    line-height: 28.8px;
+    grid-column: 4/10;
+    text-align: center; }
+  .case-intro .caption {
+    font-family: "Nunito", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: italic;
+    grid-column: 4/10; }
 
 .case-cover {
   grid-column: span 12; }
@@ -167,23 +180,37 @@ footer .footer-text {
     width: 100%;
     display: block; }
 
-.case-text {
-  grid-column: 4/10;
-  margin: 72px 0 72px 0; }
-  .case-text h1 {
-    font-family: "Playfair Display", serif;
-    color: #152425;
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: 400; }
-  .case-text h3 {
-    font-family: "Playfair Display", serif;
-    color: #152425;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 400; }
-  .case-text p {
-    font-family: "Nunito", sans-serif;
-    color: #152425;
-    font-size: 16px;
-    line-height: 28.8px; }
+.case-text h1 {
+  font-family: "Playfair Display", serif;
+  color: #152425;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  margin-top: 72px;
+  grid-column: 4/10; }
+.case-text h3 {
+  font-family: "Playfair Display", serif;
+  color: #152425;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  grid-column: 4/10; }
+.case-text p {
+  font-family: "Nunito", sans-serif;
+  color: #152425;
+  font-size: 16px;
+  line-height: 28.8px;
+  grid-column: 4/10; }
+.case-text ol {
+  font-family: "Nunito", sans-serif;
+  color: #152425;
+  font-size: 16px;
+  line-height: 28.8px;
+  grid-column: 4/10; }
+.case-text .case-image {
+  grid-column: span 12;
+  margin: 24px 0 24px 0; }
+  .case-text .case-image img {
+    width: 100%; }
+  .case-text .case-image video {
+    width: 100%; }
