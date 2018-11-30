@@ -1,7 +1,7 @@
 <section class="projects">
     <div class="container">
         {% for project in site.projects %}
-        <a href="{{ project.url }}" class="project-thumbnail">
+        <a href="{{ project.permalink | prepend: site.baseurl }}" class="project-thumbnail">
             <img src="{{ project.thumbnail | prepend: site.baseurl }}">
             <div class="overlay">
                 <h1>{{ project.title }}</h1>
