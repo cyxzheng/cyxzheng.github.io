@@ -4,7 +4,7 @@ title: Property Inspector
 permalink: /property/
 preview: Moving a process from paper to digital.
 thumbnail: /assets/images/projects/property/thumbnail.png
-cover: /assets/images/projects/property/cover.png
+cover: /assets/images/projects/property/Cover.png
 blurb: An insurance company in Germany was having trouble with its property damage inspection process. The use of paper forms caused inconsistencies in how the information was being recorded, which impeded claim processing in the back-office. </br> </br> I was part of a project to create a prototype that the client could later demo at a trade show, with the intention of attracting potential buyers and stakeholders.
 nda: In compliance with my NDA, I have omitted confidential information. The designs are a reinterpretation of the original.
 next-title: 365 Days of Design
