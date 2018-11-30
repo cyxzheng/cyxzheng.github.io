@@ -19,15 +19,30 @@
         </div>
     </div>
     <div class="case-cover">
-        {% if page.thumbnail %}
-        <img src="{{ page.thumbnail | prepend: site.baseurl }}">
+        {% if page.cover %}
+        <img src="{{ page.cover | prepend: site.baseurl }}">
         {% endif %}
     </div>
     <div class="case-text">
         <div class="container">
             {{ content }}
+            <h1>Thanks for reading!</h1>
+            <div class="back">
+                <p><a href="{{ site.baseurl }}">&larr; Take me home</a></p>
+            </div>
         </div>
     </div>
+    <div class="case-end">
+        <div class="container">
+            {% if page.next-title %}
+            <h1>Up Next</h1>
+            <div class="next">
+                <p><a href="{{ page.next-url }}">{{ page.next-title }}</a></p>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    <script src="/js/advanced-zoom.min.js"></script>
 </body>
 
 </html>
