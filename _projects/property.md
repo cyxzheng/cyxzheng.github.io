@@ -81,11 +81,11 @@ The client also pushed us to consider other needs that an adjuster might have, s
 
 Because the iPad has a built-in camera, we were able to leverage this and allow adjusters to add extra documentation when needed. This also aids the back-office when they analyze all the information when making a claim.
 
-<div class="case-image"><img src="/assets/images/projects/property/documentation.png" data-zoom="zoom"></div>
+<div class="case-image"><img src="/assets/images/projects/property/Documentation.png" data-zoom="zoom"></div>
 
 It’s also helpful for adjusters to be able to make damage calculations on the spot, when the scene is still fresh, and there’s the option to walk around and physically assess the damage. We were given the Excel document used to calculate these estimates, and dissected it so we could repurpose it for our inspection tool.
 
-<div class="case-image"><img src="/assets/images/projects/property/calculations1.png" data-zoom="zoom"></div>
+<div class="case-image"><img src="/assets/images/projects/property/Calculations1.png" data-zoom="zoom"></div>
 
 At times, it’s also necessary to take into account depreciation for certain damage items. As it’s not applicable to all items, it’s condition that can be applied or removed.
 
@@ -93,7 +93,7 @@ At times, it’s also necessary to take into account depreciation for certain da
 
 Being able to preview the report as the inspection happens allows for the adjuster to see what they might have missed anything, or if they made a mistake. Compared to flipping through 6+ page forms, this is a much easier way to check their work.
 
-<div class="case-image"><img src="/assets/images/projects/property/preview.png" data-zoom="zoom"></div>
+<div class="case-image"><img src="/assets/images/projects/property/Preview.png" data-zoom="zoom"></div>
 
 Each section in the form can be accessed through the preview, so no time is wasted in looking for the section they want to edit.
 
@@ -103,13 +103,13 @@ The power of technology also allows us to prevent a report from being generated 
 
 This tool ultimately needed to be in German, and I designed with that consideration in mind from the beginning. Our resident copywriter informed us that German is typically 30% longer than English, but her experience was closer to 50%. We designed the UI with that in mind.
 
-<div class="case-image"><img src="/assets/images/projects/property/german1.png" data-zoom="zoom"></div>
+<div class="case-image"><img src="/assets/images/projects/property/German1.png" data-zoom="zoom"></div>
 
 We made the initial designs in English, and the client translated everything to German. We were focused on making sure all the content and inspection-related text was correct before asking for translations. The final design was delivered in German.
 
-<div class="case-image"><img src="/assets/images/projects/property/final1.png" data-zoom="zoom"></div>
+<div class="case-image"><img src="/assets/images/projects/property/Final1.png" data-zoom="zoom"></div>
 
-<div class="case-image"><img src="/assets/images/projects/property/final2.png" data-zoom="zoom"></div>
+<div class="case-image"><img src="/assets/images/projects/property/Final2.png" data-zoom="zoom"></div>
 
 # Lessons and Takeaways
 
