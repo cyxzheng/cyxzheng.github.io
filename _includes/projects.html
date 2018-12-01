@@ -1,6 +1,7 @@
 <section class="projects">
     <div class="container">
-        {% for project in site.projects %}
+        {% assign sorted = site.projects | sort: 'order' %}
+        {% for project in sorted %}
         <a href="{{ project.permalink | prepend: site.baseurl }}" class="project-thumbnail">
             <img src="{{ project.thumbnail | prepend: site.baseurl }}">
             <div class="overlay">

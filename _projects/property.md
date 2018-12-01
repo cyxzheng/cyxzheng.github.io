@@ -3,6 +3,7 @@ layout: case
 title: Property Inspector
 permalink: /property/
 preview: Moving a process from paper to digital.
+order: 1
 thumbnail: /assets/images/projects/property/thumbnail.png
 cover: /assets/images/projects/property/Cover.png
 blurb: An insurance company in Germany was having trouble with its property damage inspection process. The use of paper forms caused inconsistencies in how the information was being recorded, which impeded claim processing in the back-office. </br> </br> I was part of a project to create a prototype that the client could later demo at a trade show, with the intention of attracting potential buyers and stakeholders.
@@ -27,7 +28,7 @@ I was responsible for creating wireframes, talking to the client in order to ite
 
 In addition, I worked alongside our Strategy Director, Product Manager, and was managed by our Director of Product Design.
 
-I was involved from the discovery phase all the way to client handoff, which spanned four months from January 2018 to April 2018.
+I was involved from the discovery phase all the way to client handoff, spanning four months from January 2018 to April 2018.
 
 # One Form, Different Habits
 

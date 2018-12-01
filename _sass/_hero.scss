@@ -2,6 +2,14 @@
     grid-column: span 6;
     margin: 72px 0 72px 0;
 
+    @include respond (tablet) {
+        grid-column: span 6;
+    }
+
+    @include respond (phone) {
+        grid-column: span 4;
+    }
+
     h1 {
         font-family: $serif;
         font-weight: $regular;

@@ -1,3 +1,5 @@
+@import "mixins";
+
 body {
     margin: 0;
 }
@@ -8,6 +10,18 @@ body {
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 16px;
     margin: 0 auto;
+
+    @include respond (tablet-wide) {
+        margin: 0 16px 0 16px;
+    }
+
+    @include respond (tablet) {
+        grid-template-columns: repeat(8, 1fr);
+    }
+
+    @include respond (phone) {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 a {
@@ -30,6 +44,10 @@ nav {
     height: 100px;
     display: flex;
     justify-content: flex-end;
+
+    @include respond (tablet-wide) {
+        margin: 0 16px 0 16px;
+    }
 
     ul {
         align-self: center;
@@ -63,8 +81,16 @@ nav {
 footer {
 
     .footer-text {
-        grid-column: span 12;
+        grid-column: span 6;
         margin: 72px 0 72px 0;
+
+        @include respond (tablet) {
+            grid-column: span 6;
+        }
+
+        @include respond (phone) {
+            grid-column: span 4;
+        }
 
         h1 {
             font-family: $serif;

@@ -1,3 +1,14 @@
+/*
+0 - 600x:   Phone
+600-900px:  Tablet Portrait
+900-1200px: Tablet Landscape
+1800px +:   Large Desktop
+$breakpoint argument choices
+- Phone
+- tab-port
+- tab-land
+- big-desktop
+*/
 body {
   margin: 0; }
 
@@ -7,6 +18,15 @@ body {
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 16px;
   margin: 0 auto; }
+  @media only screen and (max-width: 1000px) {
+    .container {
+      margin: 0 16px 0 16px; } }
+  @media only screen and (max-width: 768px) {
+    .container {
+      grid-template-columns: repeat(8, 1fr); } }
+  @media only screen and (max-width: 500px) {
+    .container {
+      grid-template-columns: repeat(4, 1fr); } }
 
 a {
   text-decoration: none;
@@ -25,6 +45,9 @@ nav {
   height: 100px;
   display: flex;
   justify-content: flex-end; }
+  @media only screen and (max-width: 1000px) {
+    nav {
+      margin: 0 16px 0 16px; } }
   nav ul {
     align-self: center;
     list-style: none; }
@@ -45,8 +68,14 @@ nav {
       margin-right: 0; }
 
 footer .footer-text {
-  grid-column: span 12;
+  grid-column: span 6;
   margin: 72px 0 72px 0; }
+  @media only screen and (max-width: 768px) {
+    footer .footer-text {
+      grid-column: span 6; } }
+  @media only screen and (max-width: 500px) {
+    footer .footer-text {
+      grid-column: span 4; } }
   footer .footer-text h1 {
     font-family: "Playfair Display", serif;
     font-weight: 400;
@@ -62,6 +91,12 @@ footer .footer-text {
 .hero-text {
   grid-column: span 6;
   margin: 72px 0 72px 0; }
+  @media only screen and (max-width: 768px) {
+    .hero-text {
+      grid-column: span 6; } }
+  @media only screen and (max-width: 500px) {
+    .hero-text {
+      grid-column: span 4; } }
   .hero-text h1 {
     font-family: "Playfair Display", serif;
     font-weight: 400;
@@ -86,6 +121,12 @@ footer .footer-text {
   transition: all 1s;
   -webkit-transition: all 1s;
   -moz-transition: all 1s; }
+  @media only screen and (max-width: 768px) {
+    .project-thumbnail {
+      grid-column: span 8; } }
+  @media only screen and (max-width: 500px) {
+    .project-thumbnail {
+      grid-column: span 4; } }
   .project-thumbnail img {
     display: block; }
   .project-thumbnail .overlay {
@@ -103,18 +144,30 @@ footer .footer-text {
     opacity: 0;
     transition: all 1s;
     -webkit-transition: all 1s;
-    -moz-transition: all 1s; }
+    -moz-transition: all 1s;
+    text-align: center; }
     .project-thumbnail .overlay h1 {
       font-family: "Playfair Display", serif;
       font-size: 30px;
+      line-height: 36px;
       font-weight: 400;
       color: #152425; }
+      @media only screen and (max-width: 500px) {
+        .project-thumbnail .overlay h1 {
+          font-size: 20px;
+          line-height: 24px;
+          margin-right: 8px;
+          margin-left: 8px; } }
     .project-thumbnail .overlay p {
       font-family: "Nunito", sans-serif;
       font-size: 16px;
       font-weight: 400;
       color: #152425;
       line-height: 28.8px; }
+      @media only screen and (max-width: 500px) {
+        .project-thumbnail .overlay p {
+          margin-right: 8px;
+          margin-left: 8px; } }
   .project-thumbnail:hover {
     border: none;
     box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.1); }
@@ -160,6 +213,12 @@ footer .footer-text {
     font-weight: 400;
     text-align: center;
     grid-column: span 12; }
+    @media only screen and (max-width: 768px) {
+      .case-intro h1 {
+        grid-column: span 8; } }
+    @media only screen and (max-width: 500px) {
+      .case-intro h1 {
+        grid-column: span 4; } }
   .case-intro p {
     font-family: "Nunito", sans-serif;
     color: #ffffff;
@@ -167,6 +226,12 @@ footer .footer-text {
     line-height: 28.8px;
     grid-column: 4/10;
     text-align: center; }
+    @media only screen and (max-width: 768px) {
+      .case-intro p {
+        grid-column: 2/8; } }
+    @media only screen and (max-width: 500px) {
+      .case-intro p {
+        grid-column: span 4; } }
   .case-intro .caption {
     font-family: "Nunito", sans-serif;
     color: #ffffff;
@@ -176,9 +241,21 @@ footer .footer-text {
     line-height: 18px;
     font-style: italic;
     grid-column: 4/10; }
+    @media only screen and (max-width: 768px) {
+      .case-intro .caption {
+        grid-column: 2/8; } }
+    @media only screen and (max-width: 500px) {
+      .case-intro .caption {
+        grid-column: span 4; } }
 
 .case-cover {
   grid-column: span 12; }
+  @media only screen and (max-width: 768px) {
+    .case-cover {
+      grid-column: span 8; } }
+  @media only screen and (max-width: 500px) {
+    .case-cover {
+      grid-column: span 4; } }
   .case-cover img {
     width: 100%;
     display: block; }
@@ -191,6 +268,12 @@ footer .footer-text {
   font-weight: 400;
   margin-top: 48px;
   grid-column: 4/10; }
+  @media only screen and (max-width: 768px) {
+    .case-text h1 {
+      grid-column: 2/8; } }
+  @media only screen and (max-width: 500px) {
+    .case-text h1 {
+      grid-column: span 4; } }
 .case-text h3 {
   font-family: "Playfair Display", serif;
   color: #152425;
@@ -198,12 +281,24 @@ footer .footer-text {
   line-height: 24px;
   font-weight: 400;
   grid-column: 4/10; }
+  @media only screen and (max-width: 768px) {
+    .case-text h3 {
+      grid-column: 2/8; } }
+  @media only screen and (max-width: 500px) {
+    .case-text h3 {
+      grid-column: span 4; } }
 .case-text p {
   font-family: "Nunito", sans-serif;
   color: #152425;
   font-size: 16px;
   line-height: 28.8px;
   grid-column: 4/10; }
+  @media only screen and (max-width: 768px) {
+    .case-text p {
+      grid-column: 2/8; } }
+  @media only screen and (max-width: 500px) {
+    .case-text p {
+      grid-column: span 4; } }
 .case-text p:last-child {
   margin-bottom: 64px; }
 .case-text ol {
@@ -212,15 +307,33 @@ footer .footer-text {
   font-size: 16px;
   line-height: 28.8px;
   grid-column: 4/10; }
+  @media only screen and (max-width: 768px) {
+    .case-text ol {
+      grid-column: 2/8; } }
+  @media only screen and (max-width: 500px) {
+    .case-text ol {
+      grid-column: span 4; } }
 .case-text .case-image {
   grid-column: span 12;
   margin: 24px 0 24px 0; }
+  @media only screen and (max-width: 768px) {
+    .case-text .case-image {
+      grid-column: span 8; } }
+  @media only screen and (max-width: 500px) {
+    .case-text .case-image {
+      grid-column: span 4; } }
   .case-text .case-image img {
     width: 100%; }
   .case-text .case-image video {
     width: 100%; }
 .case-text .back {
   grid-column: 4/10; }
+  @media only screen and (max-width: 768px) {
+    .case-text .back {
+      grid-column: 2/8; } }
+  @media only screen and (max-width: 500px) {
+    .case-text .back {
+      grid-column: span 4; } }
   .case-text .back a {
     font-family: "Nunito", sans-serif;
     color: #152425;
@@ -247,10 +360,22 @@ footer .footer-text {
       font-weight: 400;
       text-align: center;
       grid-column: span 12; }
+      @media only screen and (max-width: 768px) {
+        .case-end .container h1 {
+          grid-column: span 8; } }
+      @media only screen and (max-width: 500px) {
+        .case-end .container h1 {
+          grid-column: span 4; } }
     .case-end .container .next {
       grid-column: span 12;
       text-align: center;
       line-height: 24px; }
+      @media only screen and (max-width: 768px) {
+        .case-end .container .next {
+          grid-column: span 8; } }
+      @media only screen and (max-width: 500px) {
+        .case-end .container .next {
+          grid-column: span 4; } }
       .case-end .container .next a {
         font-family: "Nunito", sans-serif;
         color: #ffffff;
@@ -262,3 +387,15 @@ footer .footer-text {
         .case-end .container .next a:hover {
           color: #6FB9BE;
           border-bottom: 2px solid #6FB9BE; }
+
+/*
+0 - 600x:   Phone
+600-900px:  Tablet Portrait
+900-1200px: Tablet Landscape
+1800px +:   Large Desktop
+$breakpoint argument choices
+- Phone
+- tab-port
+- tab-land
+- big-desktop
+*/
