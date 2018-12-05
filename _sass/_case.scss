@@ -173,6 +173,64 @@
         }
     }
 
+    .img-grid {
+        grid-column: span 12;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-column-gap: 16px;
+        margin-top: 48px;
+
+        @include respond(tablet) {
+            grid-column: span 8;
+            grid-template-columns: repeat(8, 1fr);
+        }
+        
+        @include respond(phone) {
+            grid-column: span 4;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .grid-image {
+            grid-column: span 3;
+
+            @include respond(tablet) {
+                grid-column: span 4;
+            }
+
+            a {
+    
+                border: none;
+    
+                img {
+                    width: 100%;
+                    display: block;
+                    margin-bottom: 16px;
+                }
+    
+                video {
+                    width: 100%;
+                    display: block;
+                    margin-bottom: 16px;
+                }
+            }
+        }
+
+        p {
+            grid-column: span 12;
+            font-size: $caption-size;
+            text-align: center;
+            margin-bottom: 12px;
+
+            @include respond(tablet) {
+                grid-column: span 8;
+            }
+
+            @include respond(phone) {
+                grid-column: span 4;
+            }
+        }
+    }
+
     .back {
         grid-column: 4/10;
 

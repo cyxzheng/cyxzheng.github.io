@@ -63,7 +63,7 @@ nav {
             .active {
                 border-bottom: 2px solid $green;
                 color: $green;
-            }        
+            }
 
             a {
                 text-decoration: none;
@@ -77,6 +77,71 @@ nav {
         }
     }
 }
+
+// about page
+
+.about-image {
+    grid-column: 2/6;
+    padding: 24px;
+    margin-top: 48px;
+
+    @include respond (tablet) {
+        grid-column: 3/7;
+    }
+
+    @include respond (phone) {
+        grid-column: span 4;
+    }
+
+    img {
+        width: 100%;
+        display: block;
+        box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.1);
+    }
+}
+
+.about-text {
+    margin-top: 48px;
+    grid-column: span 6;
+
+    @include respond (tablet) {
+        grid-column: 2/8;
+    }
+
+    @include respond (phone) {
+        grid-column: span 4;
+        margin-top: 24px;
+    }
+
+    h1 {
+        font-family: $serif;
+        color: $black;
+        font-size: $heading-size;
+        line-height: $heading;
+        font-weight: $regular;
+    }
+
+    h3 {
+        font-family: $serif;
+        color: $black;
+        font-size: $subheader-size;
+        line-height: $subheader;
+        font-weight: $regular;
+    }
+
+    p {
+        font-family: $sans-serif;
+        color: $black;
+        font-size: $body-size;
+        line-height: $paragraph;
+    }
+
+    p:last-child {
+        margin-bottom: 64px;
+    }
+}
+
+// footer
 
 footer {
 

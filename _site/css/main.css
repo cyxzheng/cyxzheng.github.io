@@ -67,6 +67,51 @@ nav {
     nav ul li:last-child {
       margin-right: 0; }
 
+.about-image {
+  grid-column: 2/6;
+  padding: 24px;
+  margin-top: 48px; }
+  @media only screen and (max-width: 768px) {
+    .about-image {
+      grid-column: 3/7; } }
+  @media only screen and (max-width: 500px) {
+    .about-image {
+      grid-column: span 4; } }
+  .about-image img {
+    width: 100%;
+    display: block;
+    box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.1); }
+
+.about-text {
+  margin-top: 48px;
+  grid-column: span 6; }
+  @media only screen and (max-width: 768px) {
+    .about-text {
+      grid-column: 2/8; } }
+  @media only screen and (max-width: 500px) {
+    .about-text {
+      grid-column: span 4;
+      margin-top: 24px; } }
+  .about-text h1 {
+    font-family: "Playfair Display", serif;
+    color: #152425;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400; }
+  .about-text h3 {
+    font-family: "Playfair Display", serif;
+    color: #152425;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400; }
+  .about-text p {
+    font-family: "Nunito", sans-serif;
+    color: #152425;
+    font-size: 16px;
+    line-height: 28.8px; }
+  .about-text p:last-child {
+    margin-bottom: 64px; }
+
 footer .footer-text {
   grid-column: span 6;
   margin: 72px 0 72px 0; }
@@ -326,6 +371,46 @@ footer .footer-text {
     width: 100%; }
   .case-text .case-image video {
     width: 100%; }
+.case-text .img-grid {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 16px;
+  margin-top: 48px; }
+  @media only screen and (max-width: 768px) {
+    .case-text .img-grid {
+      grid-column: span 8;
+      grid-template-columns: repeat(8, 1fr); } }
+  @media only screen and (max-width: 500px) {
+    .case-text .img-grid {
+      grid-column: span 4;
+      grid-template-columns: repeat(4, 1fr); } }
+  .case-text .img-grid .grid-image {
+    grid-column: span 3; }
+    @media only screen and (max-width: 768px) {
+      .case-text .img-grid .grid-image {
+        grid-column: span 4; } }
+    .case-text .img-grid .grid-image a {
+      border: none; }
+      .case-text .img-grid .grid-image a img {
+        width: 100%;
+        display: block;
+        margin-bottom: 16px; }
+      .case-text .img-grid .grid-image a video {
+        width: 100%;
+        display: block;
+        margin-bottom: 16px; }
+  .case-text .img-grid p {
+    grid-column: span 12;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 12px; }
+    @media only screen and (max-width: 768px) {
+      .case-text .img-grid p {
+        grid-column: span 8; } }
+    @media only screen and (max-width: 500px) {
+      .case-text .img-grid p {
+        grid-column: span 4; } }
 .case-text .back {
   grid-column: 4/10; }
   @media only screen and (max-width: 768px) {
