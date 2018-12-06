@@ -125,7 +125,14 @@ footer .footer-text {
     font-family: "Playfair Display", serif;
     font-weight: 400;
     font-size: 30px;
-    color: #152425; }
+    color: #152425;
+    line-height: 36px; }
+  footer .footer-text h3 {
+    font-family: "Playfair Display", serif;
+    color: #152425;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400; }
   footer .footer-text p {
     font-family: "Nunito", sans-serif;
     font-weight: 400;

@@ -162,6 +162,15 @@ footer {
             font-weight: $regular;
             font-size: $heading-size;
             color: $black;
+            line-height: $heading;
+        }
+
+        h3 {
+            font-family: $serif;
+            color: $black;
+            font-size: $subheader-size;
+            line-height: $subheader;
+            font-weight: $regular;
         }
 
         p {

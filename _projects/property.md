@@ -90,7 +90,7 @@ It’s also helpful for adjusters to be able to make damage calculations on the 
 
 At times, it’s also necessary to take into account depreciation for certain damage items. As it’s not applicable to all items, it’s condition that can be applied or removed.
 
-<div class="case-image"><video autoplay muted loop><source src="/assets/images/projects/property/timevalue.mp4" type="video/mp4"></video></div>
+<div class="case-image"><video autoplay muted loop playsinline><source src="/assets/images/projects/property/timevalue.mp4" type="video/mp4"></video></div>
 
 Being able to preview the report as the inspection happens allows for the adjuster to see what they might have missed anything, or if they made a mistake. Compared to flipping through 6+ page forms, this is a much easier way to check their work.
 
