@@ -31,23 +31,33 @@ body {
 a {
   text-decoration: none;
   color: #152425;
-  border-bottom: 2px solid #152425;
+  border-bottom: 1px solid #152425;
   transition: all 0.1s;
   -moz-transition: all 0.1s;
   -webkit-transition: all 0.1s; }
   a:hover {
     color: #6FB9BE;
-    border-bottom: 2px solid #6FB9BE; }
+    border-bottom: 1px solid #6FB9BE; }
 
 nav {
   max-width: 960px;
   margin: 0 auto;
   height: 100px;
   display: flex;
-  justify-content: flex-end; }
+  justify-content: space-between; }
   @media only screen and (max-width: 1000px) {
     nav {
       margin: 0 16px 0 16px; } }
+  nav a {
+    width: 48px;
+    height: 48px;
+    border: none;
+    align-self: center; }
+    nav a img {
+      width: 100%;
+      display: block; }
+    nav a:hover {
+      border: none; }
   nav ul {
     align-self: center;
     list-style: none; }
@@ -58,7 +68,7 @@ nav {
       font-size: 16px;
       margin-right: 16px; }
       nav ul li .active {
-        border-bottom: 2px solid #6FB9BE;
+        border-bottom: 1px solid #6FB9BE;
         color: #6FB9BE; }
       nav ul li a {
         text-decoration: none;
@@ -68,12 +78,13 @@ nav {
       margin-right: 0; }
 
 .about-image {
-  grid-column: 2/6;
-  padding: 24px;
+  grid-column: 1/6;
+  padding: 20px 48px 48px 48px;
   margin-top: 48px; }
   @media only screen and (max-width: 768px) {
     .about-image {
-      grid-column: 3/7; } }
+      grid-column: 2/8;
+      padding: 0 48px 0 48px; } }
   @media only screen and (max-width: 500px) {
     .about-image {
       grid-column: span 4; } }
@@ -110,35 +121,78 @@ nav {
     font-size: 16px;
     line-height: 28.8px; }
   .about-text p:last-child {
-    margin-bottom: 64px; }
+    margin-bottom: 48px; }
 
+footer h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #152425;
+  line-height: 36px; }
+footer h3 {
+  font-family: "Playfair Display", serif;
+  color: #152425;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400; }
+footer p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #152425;
+  line-height: 28.8px; }
 footer .footer-text {
-  grid-column: span 6;
-  margin: 72px 0 72px 0; }
+  grid-column: 1/7;
+  margin: 72px 0 0 0; }
   @media only screen and (max-width: 768px) {
     footer .footer-text {
-      grid-column: span 6; } }
+      grid-column: 1/7; } }
   @media only screen and (max-width: 500px) {
     footer .footer-text {
       grid-column: span 4; } }
-  footer .footer-text h1 {
-    font-family: "Playfair Display", serif;
-    font-weight: 400;
-    font-size: 30px;
-    color: #152425;
-    line-height: 36px; }
-  footer .footer-text h3 {
-    font-family: "Playfair Display", serif;
-    color: #152425;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 400; }
-  footer .footer-text p {
-    font-family: "Nunito", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #152425;
-    line-height: 28.8px; }
+footer .email {
+  grid-column: 1/4;
+  margin: 0 0 72px 0; }
+  @media only screen and (max-width: 768px) {
+    footer .email {
+      grid-column: span 8;
+      margin: 0; } }
+  @media only screen and (max-width: 500px) {
+    footer .email {
+      grid-column: span 4; } }
+footer .social {
+  grid-column: 4/9;
+  margin: 0 0 72px 0; }
+  @media only screen and (max-width: 768px) {
+    footer .social {
+      grid-column: span 8; } }
+  @media only screen and (max-width: 500px) {
+    footer .social {
+      grid-column: span 4; } }
+  footer .social p a:first-child {
+    margin-right: 16px; }
+footer .email-small {
+  grid-column: 1/4;
+  margin: 24px 0 24px 0; }
+  @media only screen and (max-width: 768px) {
+    footer .email-small {
+      grid-column: span 8;
+      margin: 24px 0 0 0; } }
+  @media only screen and (max-width: 500px) {
+    footer .email-small {
+      grid-column: span 4; } }
+footer .social-small {
+  grid-column: 4/9;
+  margin: 24px 0 24px 0; }
+  @media only screen and (max-width: 768px) {
+    footer .social-small {
+      grid-column: span 8;
+      margin: 0 0 24px 0; } }
+  @media only screen and (max-width: 500px) {
+    footer .social-small {
+      grid-column: span 4; } }
+  footer .social-small p a:first-child {
+    margin-right: 16px; }
 
 .hero-text {
   grid-column: span 6;
@@ -351,8 +405,6 @@ footer .footer-text {
   @media only screen and (max-width: 500px) {
     .case-text p {
       grid-column: span 4; } }
-.case-text p:last-child {
-  margin-bottom: 64px; }
 .case-text ol {
   font-family: "Nunito", sans-serif;
   color: #152425;
@@ -450,7 +502,7 @@ footer .footer-text {
       font-size: 30px;
       line-height: 36px;
       font-weight: 400;
-      text-align: center;
+      text-align: left;
       grid-column: span 12; }
       @media only screen and (max-width: 768px) {
         .case-end .container h1 {
@@ -460,7 +512,7 @@ footer .footer-text {
           grid-column: span 4; } }
     .case-end .container .next {
       grid-column: span 12;
-      text-align: center;
+      text-align: left;
       line-height: 24px; }
       @media only screen and (max-width: 768px) {
         .case-end .container .next {

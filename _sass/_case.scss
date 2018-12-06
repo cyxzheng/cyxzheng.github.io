@@ -132,10 +132,6 @@
         }
     }
 
-    p:last-child {
-        margin-bottom: 64px;
-    }
-
     ol {
         font-family: $sans-serif;
         color: $black;
@@ -273,7 +269,7 @@
             font-size: $heading-size;
             line-height: $heading;
             font-weight: $regular;
-            text-align: center;
+            text-align: left;
             grid-column: span 12;
 
             @include respond (tablet) {
@@ -287,7 +283,7 @@
 
         .next {
             grid-column: span 12;
-            text-align: center;
+            text-align: left;
             line-height: $subheader;
 
             @include respond (tablet) {
