@@ -2,7 +2,7 @@
 layout: case
 title: Property Inspector
 permalink: /property/
-preview: Moving a process from paper to digital.
+preview: Rethinking the adjuster workflow.
 order: 1
 thumbnail: /assets/images/projects/property/thumbnail.png
 cover: /assets/images/projects/property/Cover.png
