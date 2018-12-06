@@ -26,8 +26,8 @@ body {
 
 a {
     text-decoration: none;
-    color: $black;
-    border-bottom: 1px solid $black;
+    color: $grey;
+    border-bottom: 1px solid $grey;
     transition: all 0.1s;
     -moz-transition: all 0.1s;
     -webkit-transition: all 0.1s;
@@ -83,7 +83,7 @@ nav {
 
             a {
                 text-decoration: none;
-                color: $black;
+                color: $grey;
                 border: none;
             }
         }
@@ -148,7 +148,7 @@ nav {
 
     p {
         font-family: $sans-serif;
-        color: $black;
+        color: $grey;
         font-size: $body-size;
         line-height: $paragraph;
     }
@@ -181,7 +181,7 @@ footer {
         font-family: $sans-serif;
         font-weight: $regular;
         font-size: $body-size;
-        color: $black;
+        color: $grey;
         line-height: $paragraph;
     }
 

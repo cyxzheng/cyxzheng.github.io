@@ -30,8 +30,8 @@ body {
 
 a {
   text-decoration: none;
-  color: #152425;
-  border-bottom: 1px solid #152425;
+  color: #304445;
+  border-bottom: 1px solid #304445;
   transition: all 0.1s;
   -moz-transition: all 0.1s;
   -webkit-transition: all 0.1s; }
@@ -72,7 +72,7 @@ nav {
         color: #6FB9BE; }
       nav ul li a {
         text-decoration: none;
-        color: #152425;
+        color: #304445;
         border: none; }
     nav ul li:last-child {
       margin-right: 0; }
@@ -117,7 +117,7 @@ nav {
     font-weight: 400; }
   .about-text p {
     font-family: "Nunito", sans-serif;
-    color: #152425;
+    color: #304445;
     font-size: 16px;
     line-height: 28.8px; }
   .about-text p:last-child {
@@ -139,7 +139,7 @@ footer p {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: #152425;
+  color: #304445;
   line-height: 28.8px; }
 footer .footer-text {
   grid-column: 1/7;
@@ -212,7 +212,7 @@ footer .social-small {
     font-family: "Nunito", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #152425;
+    color: #304445;
     line-height: 28.8px; }
 
 .project-thumbnail {
@@ -268,7 +268,7 @@ footer .social-small {
       font-family: "Nunito", sans-serif;
       font-size: 16px;
       font-weight: 400;
-      color: #152425;
+      color: #304445;
       line-height: 28.8px; }
       @media only screen and (max-width: 500px) {
         .project-thumbnail .overlay p {
@@ -299,7 +299,7 @@ footer .social-small {
     font-weight: 400;
     font-size: 16px;
     margin-top: 0;
-    color: #152425;
+    color: #304445;
     line-height: 28.8px; }
 
 .project-thumbnail:last-child {
@@ -395,7 +395,7 @@ footer .social-small {
       grid-column: span 4; } }
 .case-text p {
   font-family: "Nunito", sans-serif;
-  color: #152425;
+  color: #304445;
   font-size: 16px;
   line-height: 28.8px;
   grid-column: 4/10; }
@@ -407,7 +407,7 @@ footer .social-small {
       grid-column: span 4; } }
 .case-text ol {
   font-family: "Nunito", sans-serif;
-  color: #152425;
+  color: #304445;
   font-size: 16px;
   line-height: 28.8px;
   grid-column: 4/10; }
@@ -478,17 +478,19 @@ footer .social-small {
   @media only screen and (max-width: 500px) {
     .case-text .back {
       grid-column: span 4; } }
-  .case-text .back a {
-    font-family: "Nunito", sans-serif;
-    color: #152425;
-    transition: all 0.1s;
-    -moz-transition: all 0.1s;
-    -webkit-transition: all 0.1s;
-    font-size: 16px;
-    border-bottom: 2px solid #152425; }
-    .case-text .back a:hover {
-      color: #6FB9BE;
-      border-bottom: 2px solid #6FB9BE; }
+  .case-text .back p {
+    margin-bottom: 48px; }
+    .case-text .back p a {
+      font-family: "Nunito", sans-serif;
+      color: #304445;
+      transition: all 0.1s;
+      -moz-transition: all 0.1s;
+      -webkit-transition: all 0.1s;
+      font-size: 16px;
+      border-bottom: 1px solid #304445; }
+      .case-text .back p a:hover {
+        color: #6FB9BE;
+        border-bottom: 1px solid #6FB9BE; }
 
 .case-end {
   width: 100%;
@@ -527,10 +529,10 @@ footer .social-small {
         -moz-transition: all 0.1s;
         -webkit-transition: all 0.1s;
         font-size: 20px;
-        border-bottom: 2px solid #ffffff; }
+        border-bottom: 1px solid #ffffff; }
         .case-end .container .next a:hover {
           color: #6FB9BE;
-          border-bottom: 2px solid #6FB9BE; }
+          border-bottom: 1px solid #6FB9BE; }
 
 /*
 0 - 600x:   Phone

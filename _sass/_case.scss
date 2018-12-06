@@ -118,7 +118,7 @@
 
     p {
         font-family: $sans-serif;
-        color: $black;
+        color: $grey;
         font-size: $body-size;
         line-height: $paragraph;
         grid-column: 4/10;
@@ -134,7 +134,7 @@
 
     ol {
         font-family: $sans-serif;
-        color: $black;
+        color: $grey;
         font-size: $body-size;
         line-height: $paragraph;
         grid-column: 4/10;
@@ -180,7 +180,7 @@
             grid-column: span 8;
             grid-template-columns: repeat(8, 1fr);
         }
-        
+
         @include respond(phone) {
             grid-column: span 4;
             grid-template-columns: repeat(4, 1fr);
@@ -194,15 +194,15 @@
             }
 
             a {
-    
+
                 border: none;
-    
+
                 img {
                     width: 100%;
                     display: block;
                     margin-bottom: 16px;
                 }
-    
+
                 video {
                     width: 100%;
                     display: block;
@@ -238,18 +238,22 @@
             grid-column: span 4;
         }
 
-        a {
-            font-family: $sans-serif;
-            color: $black;
-            transition: all 0.1s;
-            -moz-transition: all 0.1s;
-            -webkit-transition: all 0.1s;
-            font-size: $body-size;
-            border-bottom: 2px solid $black;
+        p {
+            margin-bottom: 48px;
 
-            &:hover {
-                color: $green;
-                border-bottom: 2px solid $green;
+            a {
+                font-family: $sans-serif;
+                color: $grey;
+                transition: all 0.1s;
+                -moz-transition: all 0.1s;
+                -webkit-transition: all 0.1s;
+                font-size: $body-size;
+                border-bottom: 1px solid $grey;
+
+                &:hover {
+                    color: $green;
+                    border-bottom: 1px solid $green;
+                }
             }
         }
     }
@@ -301,12 +305,12 @@
                 -moz-transition: all 0.1s;
                 -webkit-transition: all 0.1s;
                 font-size: $subheader-size;
-                border-bottom: 2px solid $white;
+                border-bottom: 1px solid $white;
 
 
                 &:hover {
                     color: $green;
-                    border-bottom: 2px solid $green;
+                    border-bottom: 1px solid $green;
                 }
             }
         }
