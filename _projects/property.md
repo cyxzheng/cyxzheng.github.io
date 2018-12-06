@@ -58,7 +58,7 @@ One thing we noticed about the paper forms was that it didn’t ask too many que
 
 We also realized that since no two properties are the same, it was almost impossible to follow the same procedure for every single inspection. This meant that it wasn’t doing anyone favours if we forced adjusters to follow a strict order when answer questions.
 
-<div class="case-image"><video autoplay muted loop><source src="/assets/images/projects/property/diffhouses.mp4" type="video/mp4"></video></div>
+<div class="case-image"><video autoplay muted loop playsinline><source src="/assets/images/projects/property/diffhouses.mp4" type="video/mp4"></video></div>
 
 The back-office had their own requirements for what information was necessary in order properly create a claim, but because the paper forms were entirely made up of written answers, it was difficult to establish consistency in what was being recorded. We worked with the client to figure out all the possible options for different inspection questions, and opted to make the majority of the form multiple-choice.
 
@@ -70,11 +70,11 @@ We created a set of questions based on a water damage claim, doing our best to m
 
 Paper forms can’t tell you how much progress you’ve made, but thankfully digital mediums can. Always showing progress gives the adjuster an idea of where his inspection is.
 
-<div class="case-image"><video autoplay muted loop><source src="/assets/images/projects/property/progress.mp4" type="video/mp4"></video></div>
+<div class="case-image"><video autoplay muted loop playsinline><source src="/assets/images/projects/property/progress.mp4" type="video/mp4"></video></div>
 
 The flexible nature of the form allows for different inspection styles. The “power adjuster” might opt to jump between sections without following a certain order, whereas others might opt to follow the form sequentially. It doesn’t really matter how the form is completed, as long as it’s completed properly.
 
-<div class="case-image"><video autoplay muted loop><source src="/assets/images/projects/property/order.mp4" type="video/mp4"></video></div>
+<div class="case-image"><video autoplay muted loop playsinline><source src="/assets/images/projects/property/order.mp4" type="video/mp4"></video></div>
 
 # An all-in-one inspection tool
 
