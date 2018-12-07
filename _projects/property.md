@@ -12,7 +12,7 @@ next-title: 365 Days of Design
 next-url: /365/
 ---
 
-# The Present-day reality
+# The present-day reality
 
 All property damage inspections are done using paper forms. Because the adjuster has to be physically on-site, it made sense that paper would be the most reliable way to record information without an internet connection. However, with data plans being so cheap, especially in Germany, it was possible now to reliably record inspection information digitally.
 
