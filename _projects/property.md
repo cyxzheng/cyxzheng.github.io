@@ -30,25 +30,31 @@ In addition, I worked alongside our Strategy Director, Product Manager, and was 
 
 I was involved from the discovery phase all the way to client handoff, spanning four months from January 2018 to April 2018.
 
-# One form, different habits
+# Assumptions and the reality
 
 From early talks with the client, we thought that the problem mostly lay with the paper forms. We were told that the adjusters usually had to fill out a multi-page form during the inspection, and the form items were never filled in order, due to the unpredictable nature of property damage.
+
+### Assumption 1: Forms are always filled in order
 
 <div class="case-image"><img src="/assets/images/projects/property/FormOrder.png" data-zoom="zoom"></div>
 
 We initially thought that this would be a simple process of porting over their existing forms into a digital format, which was an incredibly optimistic assumption. We pressed on, and discovered that each adjuster’s different form-filling habits caused a good deal of issues for the back-office, where the claims were actually processed.
 
+### Assumption 2: Forms are always 100% filled out
+
 <div class="case-image"><img src="/assets/images/projects/property/FormOrder2.png" data-zoom="zoom"></div>
 
 No inspector filled out their forms in the same way, as each had their own “style” of conducting inspections. Forms were also rarely completely filled out. This made it difficult for the people in the back-office, who had to input information into the claims software, but the many different variations of completed forms slowed down this task considerably.
 
-# Figuring out common actions
+# What's standard?
+
+### Figuring out common actions
+
+The idea was that if we were able to figure out an acceptable general path for property inspections, we could start to figure out how to create a form that would guide (but not force) adjusters in filling out all the necessary information for the folks in the back-office.
 
 We were fortunate enough to be able to talk to some people on the client’s side who were more familiar with the property inspection process. Through many conversations, and reading through crudely translated inspection forms, I pieced together a customer journey that described at a high level what a typical inspection from start-to-finish would look like.
 
 <div class ="case-image"><img src="/assets/images/projects/property/CustJourney.png" data-zoom="zoom"></div>
-
-The idea was that if we were able to figure out an acceptable general path for property inspections, we could start to figure out how to create a form that would guide (but not force) adjusters in filling out all the necessary information for the folks in the back-office.
 
 This also allowed us to map out what new features we would need to design, and also see what existing features in the larger suite of software we could use.
 
@@ -56,9 +62,13 @@ This also allowed us to map out what new features we would need to design, and a
 
 One thing we noticed about the paper forms was that it didn’t ask too many questions; there were input boxes to record all kinds of information, like measurements, damage types, building types, etc, but there were no prompts or indications of what was necessary to fill out.
 
+### Different house, different process
+
 We also realized that since no two properties are the same, it was almost impossible to follow the same procedure for every single inspection. This meant that it wasn’t doing anyone favours if we forced adjusters to follow a strict order when answer questions.
 
 <div class="case-image"><video autoplay muted loop playsinline><source src="/assets/images/projects/property/diffhouses.mp4" type="video/mp4"></video></div>
+
+### Sourcing form content
 
 The back-office had their own requirements for what information was necessary in order properly create a claim, but because the paper forms were entirely made up of written answers, it was difficult to establish consistency in what was being recorded. We worked with the client to figure out all the possible options for different inspection questions, and opted to make the majority of the form multiple-choice.
 

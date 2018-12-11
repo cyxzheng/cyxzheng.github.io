@@ -106,6 +106,7 @@
         line-height: $subheader;
         font-weight: $regular;
         grid-column: 4/10;
+        margin-bottom: 8px;
 
         @include respond (tablet) {
             grid-column: 2/8;

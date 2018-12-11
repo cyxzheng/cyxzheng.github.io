@@ -386,7 +386,8 @@ footer .social-small {
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
-  grid-column: 4/10; }
+  grid-column: 4/10;
+  margin-bottom: 8px; }
   @media only screen and (max-width: 768px) {
     .case-text h3 {
       grid-column: 2/8; } }
