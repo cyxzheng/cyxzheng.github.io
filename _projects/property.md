@@ -68,7 +68,7 @@ We also realized that since no two properties are the same, it was almost imposs
 
 <div class="case-image"><video autoplay muted loop playsinline><source src="/assets/images/projects/property/diffhouses.mp4" type="video/mp4"></video></div>
 
-### Sourcing form content
+### Sourcing form questions
 
 The back-office had their own requirements for what information was necessary in order properly create a claim, but because the paper forms were entirely made up of written answers, it was difficult to establish consistency in what was being recorded. We worked with the client to figure out all the possible options for different inspection questions, and opted to make the majority of the form multiple-choice.
 
@@ -76,23 +76,31 @@ The back-office had their own requirements for what information was necessary in
 
 We created a set of questions based on a water damage claim, doing our best to make sure the answers fulfilled the back-office requirements. The client partnered with us on this endeavour, modifying certain elements to better match the actual inspection process of an adjuster.
 
-# Embracing different inspection styles
+# A form for any adjuster
 
-Paper forms can’t tell you how much progress you’ve made, but thankfully digital mediums can. Always showing progress gives the adjuster an idea of where his inspection is.
-
-<div class="case-image"><video autoplay muted loop playsinline><source src="/assets/images/projects/property/progress.mp4" type="video/mp4"></video></div>
+### Any order is the correct order
 
 The flexible nature of the form allows for different inspection styles. The “power adjuster” might opt to jump between sections without following a certain order, whereas others might opt to follow the form sequentially. It doesn’t really matter how the form is completed, as long as it’s completed properly.
 
 <div class="case-image"><video autoplay muted loop playsinline><source src="/assets/images/projects/property/order.mp4" type="video/mp4"></video></div>
 
+### Showing how much is done (or not done)
+
+Paper forms can’t tell you how much progress you’ve made, but thankfully digital mediums can. Always showing progress gives the adjuster an idea of where they are in their inspection, allowing them to plan their next steps.
+
+<div class="case-image"><video autoplay muted loop playsinline><source src="/assets/images/projects/property/progress.mp4" type="video/mp4"></video></div>
+
 # An all-in-one inspection tool
 
 The client also pushed us to consider other needs that an adjuster might have, such as documenting information through photos and videos, or making estimates.
 
+### Collecting documentation
+
 Because the iPad has a built-in camera, we were able to leverage this and allow adjusters to add extra documentation when needed. This also aids the back-office when they analyze all the information when making a claim.
 
 <div class="case-image"><img src="/assets/images/projects/property/Documentation.png" data-zoom="zoom"></div>
+
+### On-site estimates
 
 It’s also helpful for adjusters to be able to make damage calculations on the spot, when the scene is still fresh, and there’s the option to walk around and physically assess the damage. We were given the Excel document used to calculate these estimates, and dissected it so we could repurpose it for our inspection tool.
 
@@ -101,6 +109,8 @@ It’s also helpful for adjusters to be able to make damage calculations on the 
 At times, it’s also necessary to take into account depreciation for certain damage items. As it’s not applicable to all items, it’s condition that can be applied or removed.
 
 <div class="case-image"><video autoplay muted loop playsinline><source src="/assets/images/projects/property/timevalue.mp4" type="video/mp4"></video></div>
+
+### Making sure nothing's missing
 
 Being able to preview the report as the inspection happens allows for the adjuster to see what they might have missed anything, or if they made a mistake. Compared to flipping through 6+ page forms, this is a much easier way to check their work.
 
