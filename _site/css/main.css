@@ -381,7 +381,7 @@ footer .social-small {
     .case-text h1 {
       grid-column: span 4; } }
 .case-text h3 {
-  font-family: "Playfair Display", serif;
+  font-family: "Nunito", sans-serif;
   color: #152425;
   font-size: 20px;
   line-height: 24px;
