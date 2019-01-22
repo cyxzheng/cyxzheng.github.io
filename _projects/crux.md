@@ -17,7 +17,7 @@ Currently, the US banking industry is dominated by a few meganational banks, who
 
 Have banks been delighting consumers? Net Promoter Scores seem to suggest no. As well, consumers believe that their bank isn’t doing work for them.
 
-<div class="case-image"><img src="/assets/images/projects/crux/nps.png" data-zoom="zoom"></div>
+<div class="case-image"><img src="/assets/images/projects/property/Cover.png" data-zoom="zoom"></div>
 
 # My role
 
