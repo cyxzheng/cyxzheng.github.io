@@ -21,7 +21,7 @@ Have banks been delighting consumers? Net Promoter Scores seem to suggest no. As
 
 # My role
 
-I am the lead solo design for our company, [Halleman Bradley](https://www.hmbradley.com/){:target="_blank"}, and for this project, the [Crux mobile banking app](https://launch.trycrux.com/){:target="_blank"}. I was responsible for designing our product from the ground up, building a design system, talking to customers to gain insight, and all other design-related needs, such as branding and graphic design.
+I am the lead solo designer for our company, [Halleman Bradley](https://www.hmbradley.com/){:target="_blank"}, and for this project, the [Crux mobile banking app](https://launch.trycrux.com/){:target="_blank"}. I was responsible for designing our product from the ground up, building a design system, talking to customers to gain insight, and all other design-related needs, such as branding and graphic design.
 
 I worked alongside our principal engineer, CEO, and COO. Everyone had valuable insights on certain aspects of our product that I took into account when making decisions.
 
