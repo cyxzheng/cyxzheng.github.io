@@ -13,9 +13,9 @@ next-url: /property/
 
 # The current problem
 
-Currently, the US banking industry is dominated by a few meganational banks, who hold around 40% of all deposits. All these banks provide basic services to customers, such as holding deposits, being FDIC insured, and offering credit/loan products.
+Currently, the US banking industry is dominated by a few meganational banks who hold around 40% of all deposits. All these banks provide basic services to customers, such as holding deposits, being FDIC insured, and offering credit/loan products.
 
-Have banks been delighting consumers? Net Promoter Scores seem to suggest no. As well, consumers believe that their bank isn’t doing work for them.
+Have banks been delighting consumers? Net Promoter Scores (the willingness of a customer to recommend a company's products or services to others) seem to suggest no. As well, consumers believe that their bank isn’t doing work for them.
 
 <div class="case-image"><img src="/assets/images/projects/crux/nps.png" data-zoom="zoom"></div>
 
@@ -23,7 +23,7 @@ Have banks been delighting consumers? Net Promoter Scores seem to suggest no. As
 
 I am the lead solo designer for our company, [Halleman Bradley](https://www.hmbradley.com/){:target="_blank"}, and for this project, the [Crux mobile banking app](https://launch.trycrux.com/){:target="_blank"}. I was responsible for designing our product from the ground up, building a design system, talking to customers to gain insight, and all other design-related needs, such as branding and graphic design.
 
-I worked alongside our principal engineer, CEO, and COO. Everyone had valuable insights on certain aspects of our product that I took into account when making decisions.
+I worked alongside our principal engineer, CEO, and COO. Everyone had their areas of expertise that shaped the company as well as the product.
 
 # Finding our North Star
 
@@ -45,7 +45,7 @@ Our ultimate goal is to be the first place a consumer goes for any financial pro
 
 # Setting a Foundation
 
-It would be impossible for us to jump to 100 right away from 0, so we focused on figuring out what we needed to do to get to 1 first.
+It would be impossible for us to jump from 0 to 100 right away, so we focused on figuring out what we needed to do to get to 1 first.
 
 There were three things we needed to do to lay out a solid foundation for our future:
 
@@ -57,11 +57,11 @@ There were three things we needed to do to lay out a solid foundation for our fu
 
 It was good for us to sit in a room and brainstorm, but we’re not our customers. We needed to see what people wanted in their bank, and decided to find this out by testing a few different landing pages through Facebook ads.
 
-We were looking to test what messaging and value propositions would land us the highest conversion rate of people who actually sign up for our waitlist after visiting the page.
+We were looking to test what messaging and value propositions would land us the highest conversion rate of people who actually sign up for our waitlist after visiting the page. We had around 8 different landing pages, but eventually put our focus on two that yielded signups.
 
 ### Landing page #1
 
-Our first landing page, where we thought paying people to bank with us would garner interest. As it turns out, $3 a month + 1% interest wasn’t a big enough value proposition for people to switch.
+This was an idea where we thought paying people to bank with us would garner interest. As it turns out, $3 a month + 1% interest wasn’t a big enough value proposition for people to switch.
 
 <div class="case-image"><img src="/assets/images/projects/crux/landing1.png" data-zoom="zoom"></div>
 
@@ -71,15 +71,15 @@ Our approach with this landing page was to hit on the pain points that most peop
 
 <div class="case-image"><img src="/assets/images/projects/crux/landing2.png" data-zoom="zoom"></div>
 
-We decided to keep “Love Your Bank” as our primary landing page, as it had the highest conversion rate at 35%. The rate climbed up to 40% for a while a few weeks into the campaign.
+We decided to keep “Love Your Bank” as our primary landing page, as it had the highest conversion rate at 35%. The rate climbed up to 40% for a while a few weeks into the campaign. Currently, it sits at around 45%.
 
-What was interesting was that this landing page didn’t offer any value propositions in the form of incentives or interest rates. The promise of convenience, empathy, and solutions to many common pain points in banking seemed to have struck a chord amongst customers, so this was the messaging that we decided to pursue going forward.
+What was interesting was that this landing page didn’t offer any value propositions in the form of incentives or interest rates. The promise of convenience, empathy, and solutions to many common pain points in banking seemed to have struck a chord amongst customers, so this was the messaging that we decided to pursue going forward. It seems that the promise of being treated like a human being was attractive to many people - who'd have thought?
 
 # Making it real
 
-We were starting to get some traction with our waitlist signups, and our goal wasn’t to be stuck in waitlist limbo for the next three years, so I started to work on our mobile banking app. 
+We were starting to get some traction with our waitlist signups, and our goal wasn’t to be stuck in waitlist limbo for the next three years, so I started to work on our mobile banking app.
 
-No matter what new innovations in consumer finance we come up with, people still have basic everyday banking needs. I did some analysis of the mobile apps from some of the big banks, and from some of the new fintech banks, to see what parallels in services they offered.
+No matter what new innovations in consumer finance we come up with, people still have basic everyday banking needs. I did some analyses of the mobile apps from some of the big banks, and from some of the new fintech banks, to see what parallels in services they offered.
 
 <div class="case-image"><img src="/assets/images/projects/crux/comparisons.png" data-zoom="zoom"></div>
 
@@ -90,7 +90,7 @@ Regardless of what the apps looked like, or how they functioned, we were able to
 We wanted to offer an exceptional user experience in comparison to existing banking apps, so it wasn’t enough to just stuff these features into our app and call it a day. My goal at this point was to put together an MVP that we could test, in order to validate two things:
 
 1. We’re not missing any features that are deemed necessary for day-to-day banking
-2. We meet our goal of offering a friction-free user experience
+2. We meet our goal of offering a frictionless user experience
 
 ### Early Insights
 
@@ -102,11 +102,11 @@ I decided to run tests on the “Move Money” features, based on what we determ
 
 I made wireframes and tested them in-house with employees from other companies sharing our incubator space. I wanted to test with waitlist customers later when we had something higher fidelity, so that they could focus on the functionality and not the visual design.
 
-I listed out the flows I wanted to test, along with its accompanying question. I chose to create a scenario for the user, with the hopes that it would provide better context than simply “do this, do that”. 
+I listed out the flows I wanted to test, along with its accompanying question. I chose to create a scenario for the user, with the hopes that it would provide better context than simply “do this, do that”.
 
 ### Move Money
 
-The tasks pertaining to moving money were some of the common things people needed to do on their mobile banking app.
+The tasks pertaining to moving money were some of the common things people needed to do on their mobile banking app. The goal here was to test whether or not these features worked the way users expect them to.
 
 <div class="case-image"><img src="/assets/images/projects/crux/movequestions.png" data-zoom="zoom"></div>
 
@@ -116,9 +116,11 @@ Moving Money proved to be a relatively straightforward process, with the majorit
 
 ### Goals
 
+The goal (heh) here was to see if the process of setting up and managing a savings goal was a straightforward process.
+
 <div class="case-image"><img src="/assets/images/projects/crux/goals.png" data-zoom="zoom"></div>
 
-Goals was more complicated, and the whole process was wrought with mixed feelings. 
+Goals was more complicated, and the whole process was wrought with mixed feelings.
 
 <div class="case-image"><img src="/assets/images/projects/crux/goaltest1.png" data-zoom="zoom"></div>
 
@@ -132,7 +134,7 @@ I took this feedback and applied it to my design, with the intention of testing 
 
 I reached out on our Facebook page, asking if anyone wanted to take part in testing our mobile app. The response was extremely enthusiastic, and I was able to schedule 15 user tests that happened in the span of a week.
 
-This time, I also added Bill Pay to the list of things I wanted to test, along with Goals and Moving Money. 
+This time, I also added Bill Pay to the list of things I wanted to test, along with Goals and Moving Money.
 
 I also included the sign-in flow, both to test, and to ease users into testing the actual feature by giving them the feeling that they’re testing a real banking app.
 
@@ -146,11 +148,11 @@ All tests after the login flow would lead them to the home screen. This screen s
 
 These features have to do with managing funds in one’s account.
 
-We want to test that our check deposits feature works as well. Check deposits is probably the most innovative feature in mobile banking apps in the last decade. It’s a necessary feature, especially if we start out with no physical branches.
+Firstly, I wanted to test that our check deposits feature works as well. Without physical branches (yet), we needed to make sure that people can meet their banking needs through our mobile app.
 
 <div class="case-image"><img src="/assets/images/projects/crux/depositcheck.png" data-zoom="zoom"></div>
 
-Before we open physical branches, we wanted our customers to be able to meet the majority of their needs through our mobile app. Sending checks, paying friends, and setting up direct deposits are things that people need to do not on a day-to-day basis, but can be a major inconvenience if it needs to happen on short notice. It was important for us to make sure that these features worked as intended, and that our customers were aware that they existed.
+Other features, such as sending checks, paying friends, and setting up direct deposits are things that people might not need to do on a day-to-day basis, but can be a major inconvenience if it needs to happen on short notice. It was important for us to make sure that these features worked as intended, and that our customers are aware that they exist.
 
 <div class="case-image"><img src="/assets/images/projects/crux/movemoney1.png" data-zoom="zoom"></div>
 
@@ -168,7 +170,7 @@ When paying friends, most people wanted to search for a contact, but didn’t se
 
 Savings goals was a feature we didn’t see too much of in other places. Our API supported this feature, so it was easy enough to implement on our end. We also saw a lot of enthusiasm for this feature, and some customers already had ideas about what they could save for if they had this feature in their current banking apps.
 
-I tested adding a goal, adding to a goal, and cashing out a goal.
+I tested adding a goal, adding to a goal, and cashing out a goal. I wanted to make sure that these could be accomplished easily.
 
 <div class="case-image"><img src="/assets/images/projects/crux/goals1.png" data-zoom="zoom"></div>
 
@@ -180,7 +182,9 @@ The one thing everyone was confused by was the screen where they could “Kickst
 
 ### Testing "Pay Bills"
 
-Being Canadian, I thought that the bill pay system would be similar in America. I was used to adding my bills to my mobile banking app, and my bank would ACH the funds to that account. What ensued was that people were… not used to this way of doing things. 
+I wanted to test if people were able to easily add and manage their bills in one location.
+
+Being Canadian, I thought that the bill pay system would be similar in America. I was used to adding my bills to my mobile banking app, and my bank would ACH the funds to that account. What ensued was that people were… not used to this way of doing things.
 
 <div class="case-image"><img src="/assets/images/projects/crux/bills1.png" data-zoom="zoom"></div>
 
