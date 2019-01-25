@@ -216,6 +216,12 @@ There are a lot of different states, and again, we want to be a friendly, approa
 
 <div class="case-image"><img src="/assets/images/projects/crux/illustrations.png" data-zoom="zoom"></div>
 
+### Styleguides and components
+
+For the sake of keeping things neat, consistent, easy to update, and easily referencable by engineering, I put together component guides complete with specifications.
+
+<div class="case-image"><img src="/assets/images/projects/crux/stylesheet.png" data-zoom="zoom"></div>
+
 # Creating further value
 
 We looked to improve upon or innovate new features that would provide value, and through conversations with our waitlist customers, we came up with a few things were small in nature but had a big impact on the customer experience of our product.
