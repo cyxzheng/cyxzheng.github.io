@@ -64,7 +64,7 @@ I broke down the different unique screens that students might see, in order to b
 
 <div class="case-image"><img src="/assets/images/projects/google/HLFlow.png" data-zoom="zoom"></div>
 
-I went ahead and fleshed out the user flow in Sketch. I chose to design for web, as it’s incredibly difficult nowadays to convince users to download your app. Typing in a URL is a considerably lower barrier to entry, and developing for web ensures access from almost all devices, as long as they’re connected to the internet.
+I went ahead and fleshed out the user flow in Sketch. I chose to design for web, as it’s incredibly difficult nowadays to convince users to download an app. Typing in a URL is a considerably lower barrier to entry, and developing for web ensures access from almost all devices, as long as they’re connected to the internet.
 
 <div class="case-image"><img src="/assets/images/projects/google/Flow.png" data-zoom="zoom"></div>
 
