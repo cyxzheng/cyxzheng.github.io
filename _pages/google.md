@@ -102,7 +102,7 @@ The onboarding takes a user’s interests and values, and shows matching organiz
 
 <div class="case-image"><img src="/assets/images/projects/google/Explore1.png" data-zoom="zoom"></div>
 
-The Recommended page shows all the results relevant to the user’s interests. This view allows them to very quickly see their options, saving time, and also showing them organizations that they otherwise might have missed if they were manually searching.
+Under Browse, the Recommended page shows all the results relevant to the user’s interests. This view allows them to very quickly see their options, saving time, and also showing them organizations that they otherwise might have missed if they were manually searching.
 
 The All Organizations page is a collective list of every single student organization. Users, now without the need to look out for organizations relevant to their interests, can browse through the rest of the organizations and allow some to (hopefully) catch their eye.
 
@@ -136,7 +136,7 @@ The user picks the categories and subcategories that their proposal might fall u
 
 # High-fidelity
 
-I designed with desktop in mind, but didn’t forget about mobile users. A responsive grid was used to ensure that this is useable on any device.
+I designed with desktop in mind, but didn’t forget about mobile users. A responsive grid was used to ensure that the layout translates well across screen sizes.
 
 ### Onboarding
 
@@ -177,12 +177,14 @@ Cards are not split into different category sections, due to the unpredictable n
 ### I follow my friends
 
 <div class="img-grid">
-<div class="grid-image-3"><img src="/assets/images/projects/google/Friends1.png" data-zoom="zoom"></div>
 <div class="grid-image-3"><img src="/assets/images/projects/google/Friends2.png" data-zoom="zoom"></div>
+<div class="grid-image-3"><img src="/assets/images/projects/google/Friends1.png" data-zoom="zoom"></div>
 <div class="grid-image-3"><video autoplay muted loop playsinline><source src="/assets/images/projects/google/friends.mp4" type="video/mp4"></video></div>
 </div>
 
-Many people answered during the research phase that they would consider joining and organization if they had friends in it. Unfortunately, it seems that universities generally don't allow logging in with social media, so it's not feasible to show friends who are part of an organization you might be interested in.
+During the research phase, many expressed that they would take into account if they had friends in an organization before joining. There was also a good number of people who said they consult their friends for recommendations on what to join. I dreamed up a feature to address this insight, and added a "friends who joined" indicator that can help users see at a glance if they know anyone within an organization.
+
+Unfortunately, it doesn't seem like most universities allow signing in with any form of social media, so this is probably an unfeasible feature in the short term. In the long term, if there's a "friends" feature, and people are compelled enough to add each other, then I could see this happening.
 
 # Takeaways
 
