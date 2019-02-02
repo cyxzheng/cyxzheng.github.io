@@ -69,7 +69,7 @@
         <div class="container">
             <h1 id="research">Research</h1>
 
-<p>I came up with 5 questions that I asked to 10 fellow undergraduate students. I wanted to figure out what was important to them when it came to joining student organizations, how they search for them, and whether or not they ever considered proposing a new organization.</p>
+<p>I came up with 5 questions that I asked to 10 fellow undergraduate students, between the ages of 18-24. I wanted to figure out what was important to them when it came to joining student organizations, how they search for them, and whether or not they ever considered proposing a new organization.</p>
 
 <ol>
   <li>Why do you join student organizations?</li>
@@ -78,6 +78,10 @@
   <li>What makes you decide/not decide to join an organization that’s interesting to you?</li>
   <li>Have you ever considered starting an organization? Why or why not?</li>
 </ol>
+
+<h3 id="risks-and-considerations">Risks and considerations</h3>
+
+<p>Due to the limited time available for this exercise, I am aware that 10 people is not representative of the entire student demographic. I will take this into account, and do my best to make decisions without bias.</p>
 
 <h1 id="insights">Insights</h1>
 
@@ -95,9 +99,9 @@
 
 <p>My initial research showed that most people have an idea of their interests when searching for organizations. I narrowed down what I found into three core problems:</p>
 
-<h3 id="1-its-hard-to-know-where-to-start-looking">1. It’s hard to know where to start looking</h3>
+<h3 id="1-there-are-a-lot-of-options-to-dig-through">1. There are a lot of options to dig through</h3>
 
-<p>Physically checking out different booths on Clubs Day and searching online are both overwhelming, because of the abundance of choices available.</p>
+<p>A directory presents all the available organizations, and it’s up to the user to figure out which ones are relevant to them. Friends and peers can offer recommendations, but they might not be aware of all the available choices.</p>
 
 <h3 id="2-details-about-an-org-arent-always-clear">2. Details about an org aren’t always clear</h3>
 
@@ -111,7 +115,7 @@
 
 <p>When there’s no easy way to search through a catalogue of student orgs, finding out if your idea has a duplicate can be daunting, especially at the larger schools with 600+ student orgs.</p>
 
-<h1 id="solving-the-problem">Solving the problem</h1>
+<h1 id="defining-the-objective">Defining the objective</h1>
 
 <p>To help new students <strong>browse, search, and propose new student organizations</strong>, I’ve decided to achieve it with these three goals in mind:</p>
 
@@ -129,7 +133,7 @@
 
 <div class="case-image"><img src="/assets/images/projects/google/HLFlow.png" data-zoom="zoom" /></div>
 
-<p>I went ahead and fleshed out the user flow in Sketch. I chose to design for web, as it’s incredibly difficult nowadays to convince users to download your app. Typing in a URL is a considerably lower barrier to entry, and developing for web ensures access from almost all devices, as long as they’re connected to the internet.</p>
+<p>I went ahead and fleshed out the user flow in Sketch. I chose to design for web, as it’s <a href="https://techcrunch.com/2017/08/25/majority-of-u-s-consumers-still-download-zero-apps-per-month-says-comscore/" target="_blank">incredibly difficult</a> nowadays to convince users to download apps. Typing in a URL is a considerably lower barrier to entry, and developing for web ensures access from almost all devices, as long as they’re connected to the internet.</p>
 
 <div class="case-image"><img src="/assets/images/projects/google/Flow.png" data-zoom="zoom" /></div>
 
@@ -151,6 +155,8 @@
 
 <p>Finding and proposing student organizations can be a more dynamic process, as we can take into account a student’s interests, and break down processes to prevent information overload.</p>
 
+<h1 id="solving-the-problem">Solving the problem</h1>
+
 <p>A couple things come together to make this possible, starting with when the student first logs into the portal.</p>
 
 <h3 id="1-make-it-easy-for-students-to-find-orgs-based-on-their-interests-and-values">1. Make it easy for students to find orgs based on their interests and values</h3>
@@ -165,7 +171,7 @@
 
 <div class="case-image"><img src="/assets/images/projects/google/Explore1.png" data-zoom="zoom" /></div>
 
-<p>The Recommended page shows all the results relevant to the user’s interests. This view allows them to very quickly see their options, saving time, and also showing them organizations that they otherwise might have missed if they were manually searching.</p>
+<p>Under Browse, the Recommended page shows all the results relevant to the user’s interests. This view allows them to very quickly see their options, saving time, and also showing them organizations that they otherwise might have missed if they were manually searching.</p>
 
 <p>The All Organizations page is a collective list of every single student organization. Users, now without the need to look out for organizations relevant to their interests, can browse through the rest of the organizations and allow some to (hopefully) catch their eye.</p>
 
@@ -199,7 +205,7 @@
 
 <h1 id="high-fidelity">High-fidelity</h1>
 
-<p>I designed with desktop in mind, but didn’t forget about mobile users. A responsive grid was used to ensure that this is useable on any device.</p>
+<p>I designed with desktop in mind, but didn’t forget about mobile users. A responsive grid was used to ensure that the layout translates well across screen sizes.</p>
 
 <h3 id="onboarding">Onboarding</h3>
 
@@ -240,12 +246,14 @@
 <h3 id="i-follow-my-friends">I follow my friends</h3>
 
 <div class="img-grid">
-<div class="grid-image-3"><img src="/assets/images/projects/google/Friends1.png" data-zoom="zoom" /></div>
 <div class="grid-image-3"><img src="/assets/images/projects/google/Friends2.png" data-zoom="zoom" /></div>
+<div class="grid-image-3"><img src="/assets/images/projects/google/Friends1.png" data-zoom="zoom" /></div>
 <div class="grid-image-3"><video autoplay="" muted="" loop="" playsinline=""><source src="/assets/images/projects/google/friends.mp4" type="video/mp4" /></video></div>
 </div>
 
-<p>Many people answered during the research phase that they would consider joining and organization if they had friends in it. Unfortunately, it seems that universities generally don’t allow logging in with social media, so it’s not feasible to show friends who are part of an organization you might be interested in.</p>
+<p>During the research phase, many expressed that they would take into account if they had friends in an organization before joining. There was also a good number of people who said they consult their friends for recommendations on what to join. I dreamed up a feature to address this insight, and added a “friends who joined” indicator that can help users see at a glance if they know anyone within an organization.</p>
+
+<p>Unfortunately, it doesn’t seem like most universities allow signing in with any form of social media, so this is probably an unfeasible feature in the short term. In the long term, if there’s a “friends” feature, and people are compelled enough to add each other, then I could see this happening.</p>
 
 <h1 id="takeaways">Takeaways</h1>
 

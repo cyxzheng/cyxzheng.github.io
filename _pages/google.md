@@ -8,13 +8,17 @@ blurb: “Design an experience for new students to browse, search, and propose n
 
 # Research
 
-I came up with 5 questions that I asked to 10 fellow undergraduate students. I wanted to figure out what was important to them when it came to joining student organizations, how they search for them, and whether or not they ever considered proposing a new organization.
+I came up with 5 questions that I asked to 10 fellow undergraduate students, between the ages of 18-24. I wanted to figure out what was important to them when it came to joining student organizations, how they search for them, and whether or not they ever considered proposing a new organization.
 
 1. Why do you join student organizations?
 2. What’s important to you when picking an organization?
 3. How do you search for organizations to join?
 4. What makes you decide/not decide to join an organization that’s interesting to you?
 5. Have you ever considered starting an organization? Why or why not?
+
+### Risks and considerations
+
+Due to the limited time available for this exercise, I am aware that 10 people is not representative of the entire student demographic. I will take this into account, and do my best to make decisions without bias.
 
 # Insights
 
@@ -32,9 +36,9 @@ I gathered answers and summarized my findings, taking note of how frequently the
 
 My initial research showed that most people have an idea of their interests when searching for organizations. I narrowed down what I found into three core problems:
 
-### 1. It’s hard to know where to start looking
+### 1. There are a lot of options to dig through
 
-Physically checking out different booths on Clubs Day and searching online are both overwhelming, because of the abundance of choices available.
+A directory presents all the available organizations, and it's up to the user to figure out which ones are relevant to them. Friends and peers can offer recommendations, but they might not be aware of all the available choices.
 
 ### 2. Details about an org aren’t always clear
 
@@ -64,7 +68,7 @@ I broke down the different unique screens that students might see, in order to b
 
 <div class="case-image"><img src="/assets/images/projects/google/HLFlow.png" data-zoom="zoom"></div>
 
-I went ahead and fleshed out the user flow in Sketch. I chose to design for web, as it’s incredibly difficult nowadays to convince users to download an app. Typing in a URL is a considerably lower barrier to entry, and developing for web ensures access from almost all devices, as long as they’re connected to the internet.
+I went ahead and fleshed out the user flow in Sketch. I chose to design for web, as it’s [incredibly difficult](https://techcrunch.com/2017/08/25/majority-of-u-s-consumers-still-download-zero-apps-per-month-says-comscore/){:target="_blank"} nowadays to convince users to download apps. Typing in a URL is a considerably lower barrier to entry, and developing for web ensures access from almost all devices, as long as they’re connected to the internet.
 
 <div class="case-image"><img src="/assets/images/projects/google/Flow.png" data-zoom="zoom"></div>
 
