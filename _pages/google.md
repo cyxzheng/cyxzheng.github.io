@@ -48,7 +48,7 @@ Looking at different universities, the procedures are all quite lengthy, and som
 
 When there’s no easy way to search through a catalogue of student orgs, finding out if your idea has a duplicate can be daunting, especially at the larger schools with 600+ student orgs.
 
-# Solving the problem
+# Defining the objective
 
 To help new students **browse, search, and propose new student organizations**, I’ve decided to achieve it with these three goals in mind:
 
@@ -85,6 +85,8 @@ The Favorites section allows users to save organizations for future reference. T
 Up-and-coming shows proposed organization ideas that users can “show interest” in, as new organizations being formed need to show that there’s demand. Users can also come up with their own proposals that hopefully garner interest, get submitted, and eventually approved.
 
 Finding and proposing student organizations can be a more dynamic process, as we can take into account a student’s interests, and break down processes to prevent information overload.
+
+# Solving the problem
 
 A couple things come together to make this possible, starting with when the student first logs into the portal.
 
