@@ -188,6 +188,22 @@
             grid-template-columns: repeat(4, 1fr);
         }
 
+        .grid-image-3 {
+            grid-column: span 4;
+
+            img {
+                width: 100%;
+                display: block;
+                margin-bottom: 16px;
+            }
+
+            video {
+                width: 100%;
+                display: block;
+                margin-bottom: 16px;
+            }
+        }
+
         .grid-image {
             grid-column: span 3;
 

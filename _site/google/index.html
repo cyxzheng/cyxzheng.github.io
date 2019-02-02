@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130594071-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130594071-1');
+    </script>
+
+    
+    <title>Google Design Exercise 2019 - Calvin Zheng</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700|Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/advanced-zoom.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#152425">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+    <script>
+        function passWord() {
+                var testV = 1;
+                var pass1 = prompt('Please enter the password','');
+                while (testV < 3) {
+                if (!pass1) 
+                history.go(-1);
+                if (pass1.toLowerCase() == "speedytuesday") {
+                alert('Nice.');
+                window.open('/supersecret/');
+                break;
+                } 
+                testV+=1;
+                var pass1 = 
+                prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+                }
+                if (pass1.toLowerCase()!="password" & testV ==3) 
+                history.go(-1);
+                return " ";
+                } 
+                </script>
+    <div class="container">
+        <div class="password">
+            <h1>Password protected area</h1>
+            <p>Please ask me for the password.</p>
+            <form>
+                <input type="button" class="button" value="Enter" onClick="passWord()">
+            </form>
+        </div>
+    </div>
+
+
+
+    
+
+</body>
+
+</html>

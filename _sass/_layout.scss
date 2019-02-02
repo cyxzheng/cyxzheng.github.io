@@ -24,6 +24,46 @@ body {
     }
 }
 
+.password {
+    grid-column: 4/9;
+    margin-top: 144px;
+    
+    @include respond (tablet) {
+        grid-column: 2/8;
+    }
+
+    @include respond (phone) {
+        grid-column: span 4;
+    }
+
+    h1 {
+        font-family: $serif, Serif;
+        font-size: $heading-size;
+        line-height: $heading;
+        color: $black;
+    }
+
+    p {
+        font-family: $sans-serif;
+        font-size: $body-size;
+        line-height: $paragraph;
+        color: $black;
+    }
+
+    .button {
+        background-color: $black;
+        border: none;
+        color: #ffffff;
+        padding: 16px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: $body-size;
+        cursor: pointer;
+    }
+}
+
 a {
     text-decoration: none;
     color: $grey;
