@@ -22,23 +22,11 @@ I gathered answers and summarized my findings, taking note of how frequently the
 
 <div class="case-image"><img src="/assets/images/projects/google/Question1.png" data-zoom="zoom"></div>
 
-Nothing out of the ordinary here. Making friends and having fun should be part of the college experience, after all.
-
-<div class="case-image"><img src="/assets/images/projects/google/Question2.png" data-zoom="zoom"></div>
-
-Most people have interests in mind when looking for organizations to join. A small number do not, but are happily willing to browse until something catches their eye.
-
 <div class="case-image"><img src="/assets/images/projects/google/Question3.png" data-zoom="zoom"></div>
-
-Word-of-mouth in this case is not only limited to asking friends, as there was more than one person who used Reddit to read about which organizations to join. Being told what to join is a more appealing option than searching through a huge directory.
 
 <div class="case-image"><img src="/assets/images/projects/google/Question4.png" data-zoom="zoom"></div>
 
-Most of these are in-person experiences, such as seing if the people in the organization are amiable. This means that I need to ensure the search process up to this point must be easy, so that the user is much more willing to go to an org meeting because they were able to easily find the ones that they thought were worth checking out.
-
 <div class="case-image"><img src="/assets/images/projects/google/Question5.png" data-zoom="zoom"></div>
-
-Both yes and no answers said it was too much work. Upon digging a bit deeper, it turns out that some just don't know where to start, or are intimidated by the amount of paperwork required.
 
 # Finding core problems
 
@@ -46,13 +34,11 @@ My initial research showed that most people have an idea of their interests when
 
 ### 1. It’s hard to know where to start looking
 
-Physically checking out different booths on Clubs Day and searching online are both overwhelming, because of the abundance of choices available. Unless you know exactly what you’re looking for, you’ll have to dig through the wall of options that you’re presented with.
+Physically checking out different booths on Clubs Day and searching online are both overwhelming, because of the abundance of choices available.
 
 ### 2. Details about an org aren’t always clear
 
-Every organization has a different way of managing their online presence, which sometimes makes it difficult to find the most updated information. 
-
-My school has a directory for all organizations, but doesn’t include information needed to join, such as meeting times and locations. Some of this can be found externally through an organization’s website, or social media, but not having this information in a centralized source makes joining much more difficult.
+My school has a directory for all organizations, but it doesn’t include information needed to join, such as meeting times and locations. Every organization has a different way of managing their online presence, which sometimes makes it difficult to find the most updated information.
 
 ### 3. Proposing an org is a daunting and confusing process
 
@@ -132,7 +118,9 @@ Users can also search for organizations using keywords. This will take into acco
 
 <div class="case-image"><img src="/assets/images/projects/google/Explore2.png" data-zoom="zoom"></div>
 
-Each organization will have its own page, with accompanying descriptions and pictures that help paint a better picture of what the organization is like for potential members. Important information, such as meeting times, location, and fees, are present on this page, for every single organization. This will reduce confusion, and in turn drive participation, as users won’t have to wonder if the meeting room they’re wandering to is truly the right location.
+Each organization will have its own page, with accompanying descriptions and pictures. There's an opportunity here to paint an image of what membership entails, and can give potential members an idea of whether or not this organization will benefit them and provide the community that they're seeking.
+
+Important information, such as meeting times, location, and fees, are present on this page, for every single organization. This will reduce confusion, and in turn drive participation, as users won’t have to wonder if the meeting room they’re wandering to is truly the right location.
 
 ### 3. Make the proposal process less daunting
 
