@@ -23,7 +23,7 @@ Have banks been delighting consumers? Net Promoter Scores (the willingness of a 
 
 I am the lead solo designer for our company, [Halleman Bradley](https://www.hmbradley.com/){:target="_blank"}, and for this project, the [Crux mobile banking app](https://launch.trycrux.com/){:target="_blank"}. I was responsible for designing our product from the ground up, building a design system, talking to customers to gain insight, and all other design-related needs, such as branding and graphic design.
 
-I worked alongside our principal engineer, CEO, and COO. Everyone had their areas of expertise that shaped the company as well as the product.
+I worked alongside our CTO, CEO, and COO. Everyone had their areas of expertise that shaped the company as well as the product.
 
 # Finding our North Star
 
@@ -126,7 +126,7 @@ Goals was more complicated, and the whole process was wrought with mixed feeling
 
 <div class="case-image"><img src="/assets/images/projects/crux/goaltest2.png" data-zoom="zoom"></div>
 
-No one liked feeling guilty for having to take money out of a goal, or for not committing to a goal, because life happens and it’s never good to feel worse about circumstances that might be out of control. In many cases, people said that they were actually less likely to set goals because they didn’t want to feel guilty.
+No one liked feeling guilty for having to take money out of a goal, or for not committing to a goal, because life happens and it’s never good to feel worse about circumstances that might be out of their control. In many cases, people said that they were actually less likely to set goals because they didn’t want to feel guilty.
 
 I took this feedback and applied it to my design, with the intention of testing version 2 with users that were signed up on our waitlist.
 
@@ -248,7 +248,7 @@ Bill pay should be simple, and not require you to manage it from a multitude of 
 
 ### Push credit
 
-The traditional way of applying for credit is… applying, and you’ll take a hit to your credit score for each hard inquiry. Financial institutions have a lot of information about its customers, so why not use it to constantly underwrite them? Through soft credit pulls, as well as analysis of a customer’s financial transactions, we can determine if someone is creditworthy and offer them products automatically for them to just take - no application needed.
+The traditional way of applying for credit is… applying, and you’ll take a hit to your credit score for each hard inquiry. Financial institutions have a lot of information about their customers, so why not use it to constantly underwrite them? Through soft credit pulls, as well as analysis of a customer’s financial transactions, we can determine if someone is creditworthy and offer them products automatically for them to just take - no application needed.
 
 <div class="case-image"><img src="/assets/images/projects/crux/pushcredit.png" data-zoom="zoom"></div>
 
@@ -266,10 +266,10 @@ Credit card APRs are ridiculous, and it would be a big relief for some if they c
 
 # Lessons and takeaways
 
-Every grand vision that turns into reality has to start from somewhere. Our goal is still ultimately to be the center of everyone’s financial lives, but to start, we need to build a product that meets everyone’s needs, and then some. 
+Every grand vision that turns into reality has to start from somewhere. Our goal is still ultimately to be the center of everyone’s financial lives, but to start, we need to build a product that some people love, and then make it work for even more people by learning from our customers.
 
 When building something from 0, the process is rarely linear. A lot of it is figuring things out along the way, and the important thing is to validate it by talking to people outside of the office. I found that every customer was at a different level of financial literacy and had different needs, so it was good for us to keep them in the loop throughout the design process.
 
-Constant communication is extremely important when working with engineering. All my design decisions I made with consultation to our principal engineer, as I needed to know if certain things were possible to build on his end. The speed at which our app is being built is due to no misunderstandings about what is and isn’t feasible.
+Constant communication is extremely important when working with engineering. All my design decisions I made with consultation to our CTO, as I needed to know if certain things were possible to build on his end. The speed at which our app is being built is due to no misunderstandings about what is and isn’t feasible.
 
-The product and company will continue to evolve. Currently, we’re in the pre-launch stage, pending investments. Until then, [sign up](https://launch.trycrux.com/){:target="_blank"} for our waiting list so you can be notified when we launch the bank of the future.
+The product and company will continue to evolve. Currently, we’re in the pre-launch stage, gearing up to open our first accounts and then moving forward to add the 9,000+ users from our waiting list. Until then, [sign up](https://launch.trycrux.com/){:target="_blank"} for our waiting list so you can be notified when we launch the bank of the future.
