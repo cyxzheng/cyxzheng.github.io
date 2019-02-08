@@ -6,16 +6,16 @@ preview: Building the bank of the future.
 order: 2
 thumbnail: /assets/images/projects/crux/thumbnail.png
 cover: /assets/images/projects/crux/cover.png
-blurb: The team and I at Halleman Bradley aim to be at the center of a consumer's financial life, challenging the perception that banks don't work for their customers. By utilizing technology and leveraging data, we can provide a better, friendlier product than what currently exists on the market. </br> </br> I started with Halleman Bradley at the earliest stages, leading design for the company and moving us closer to 1 from 0.
+blurb: The team and I at Halleman Bradley aim to be at the center of a consumer's financial life, challenging the perception that banks don't work for their customers. By utilizing technology and leveraging data, we can provide a better, friendlier product than what currently exists on the market. </br> </br> I started with Halleman Bradley at the earliest stages, leading design for the company and moving us from 0 to 1.
 next-title: Property Inspector
 next-url: /property/
 ---
 
-# The current problem
+# The landscape
 
 Currently, the US banking industry is dominated by a few meganational banks who hold around 40% of all deposits. All these banks provide basic services to customers, such as holding deposits, being FDIC insured, and offering credit/loan products.
 
-Have banks been delighting consumers? Net Promoter Scores (the willingness of a customer to recommend a company's products or services to others) seem to suggest no. As well, consumers believe that their bank isn’t doing work for them.
+Banks do not delight consumers. Net Promoter Scores (the willingness of a customer to recommend a company's products or services to others) put this in writing quite clearly.
 
 <div class="case-image"><img src="/assets/images/projects/crux/nps.png" data-zoom="zoom"></div>
 
@@ -31,7 +31,7 @@ I worked alongside our CTO, CEO, and COO. Everyone had their areas of expertise 
 
 Right now, banks are just “good enough”, which is hardly awe-inspiring.
 
-Newer fintech bank solutions such as Chime and Simple have done a great job with the user experience and customer experience of their product, but primarily target the unbanked and underbanked demographic. We want to target the full-stack traditional bank customer who wanted a full range of financial products beyond a basic checking account.
+Newer fintech bank solutions such as Chime and Simple have done a great job with the user and customer experience of their product, but primarily target the unbanked and underbanked demographic. **We want to target the full-stack traditional bank customer who wanted a full range of financial products beyond a basic checking account.**
 
 The current market for financial products also has the consumer going to different companies for different needs, as financial services are mostly unbundled.
 
@@ -39,7 +39,7 @@ The current market for financial products also has the consumer going to differe
 
 ### Where we aim to be
 
-Our ultimate goal is to be the first place a consumer goes for any financial product, need, service, or advice, and the best way to lay the foundation for that was to become a bank.
+**We want to be a financial service that allows our customers to earn for what they do, not for what they have.** We want to be the first place a consumer goes for any financial product, need, service, or advice, and the best way to lay the foundation for that was to become a bank.
 
 <div class="case-image"><img src="/assets/images/projects/crux/bundled.png" data-zoom="zoom"></div>
 
@@ -57,15 +57,21 @@ There were three things we needed to do to lay out a solid foundation for our fu
 
 It was good for us to sit in a room and brainstorm, but we’re not our customers. We needed to see what people wanted in their bank, and decided to find this out by testing a few different landing pages through Facebook ads.
 
-We were looking to test what messaging and value propositions would land us the highest conversion rate of people who actually sign up for our waitlist after visiting the page. We had around 8 different landing pages, but eventually put our focus on two that yielded signups.
+We were looking to test what messaging and value propositions would land us the highest conversion rate of people who actually sign up for our waitlist after visiting the page.
 
-### Landing page #1
+### Early tests
+
+We ran a couple of different landing pages with different copy variants, but none of them were picking up too much traction. 
+
+<div class="case-image"><img src="/assets/images/projects/crux/copies.png" data-zoom="zoom"></div>
+
+### Getting closer
 
 This was an idea where we thought paying people to bank with us would garner interest. As it turns out, $3 a month + 1% interest wasn’t a big enough value proposition for people to switch.
 
 <div class="case-image"><img src="/assets/images/projects/crux/landing1.png" data-zoom="zoom"></div>
 
-### Landing page #2
+### The one we stuck with
 
 Our approach with this landing page was to hit on the pain points that most people had with their bank. Things such as fees, processing times, opening hours… all annoyances that add up.
 
@@ -83,26 +89,22 @@ No matter what new innovations in consumer finance we come up with, people still
 
 <div class="case-image"><img src="/assets/images/projects/crux/comparisons.png" data-zoom="zoom"></div>
 
-Regardless of what the apps looked like, or how they functioned, we were able to find common features.
+Regardless of what the apps looked like, or how they functioned, we were able to find common features, as well as pinpoint the interaction-heavy features.
 
-<div class="case-image"><img src="/assets/images/projects/crux/commons.png" data-zoom="zoom"></div>
+<div class="case-image"><img src="/assets/images/projects/crux/interaction.png" data-zoom="zoom"></div>
 
 We wanted to offer an exceptional user experience in comparison to existing banking apps, so it wasn’t enough to just stuff these features into our app and call it a day. My goal at this point was to put together an MVP that we could test, in order to validate two things:
 
 1. We’re not missing any features that are deemed necessary for day-to-day banking
 2. We meet our goal of offering a frictionless user experience
 
-### Early Insights
+Using this insight, we also came up with some features that would differentiate us from our competitors, but I'll get into those later.
 
-We asked around the office about what people usually did when it came to using their banking apps. Some things like checking account balances required no interaction besides logging into the app, while other actions such as depositing checks or transferring money between accounts required user input.
+# Early Tests
 
-<div class="case-image"><img src="/assets/images/projects/crux/interaction.png" data-zoom="zoom"></div>
+I decided to run tests on the “Move Money” and "Goals" features. This decision was made based on what we knew our API was capable of at that point in time, and also to ensure that the table-stakes features worked as intended.
 
-I decided to run tests on the “Move Money” features, based on what we determined above. "Goals" would be tested as well, but separate from "Move Money" due to it being a separate feature (despite also moving around money).
-
-I made wireframes and tested them in-house with employees from other companies sharing our incubator space. I wanted to test with waitlist customers later when we had something higher fidelity, so that they could focus on the functionality and not the visual design.
-
-I listed out the flows I wanted to test, along with its accompanying question. I chose to create a scenario for the user, with the hopes that it would provide better context than simply “do this, do that”.
+I tested wireframes in-house with employees from other companies sharing our incubator space. I wanted to test with waitlist customers later when we had something higher fidelity, so that they could focus on the functionality and not the visual design.
 
 ### Move Money
 
@@ -202,26 +204,6 @@ Wording is also very important, as customers had terms that they were familiar w
 
 Not presenting information overload was also crucial. Having more screens was better than packing one screen with 4 different sets of instructions. People generally moved through the flows pretty quickly, so having an extra screen or two for the sake of clarity wasn’t the worst thing in the world.
 
-# Other visual things
-
-### Icons that spark joy
-
-Transactions are not the most interesting thing in the world to look at. They’re not always the easiest thing to decipher sometimes, as well. I created an icon set for all the transactions categories laid out for us in the API, with hopes that it will make transactions easier to scan and understand.
-
-<div class="case-image"><img src="/assets/images/projects/crux/icons.png" data-zoom="zoom"></div>
-
-### Illustrations that delight
-
-There are a lot of different states, and again, we want to be a friendly, approachable bank. I made some colorful illustrations to add delight to otherwise empty screens, and to visual convey information.
-
-<div class="case-image"><img src="/assets/images/projects/crux/illustrations.png" data-zoom="zoom"></div>
-
-### Styleguides and components
-
-For the sake of keeping things neat, consistent, easy to update, and easily referencable by engineering, I put together component guides complete with specifications.
-
-<div class="case-image"><img src="/assets/images/projects/crux/stylesheet.png" data-zoom="zoom"></div>
-
 # Creating further value
 
 We looked to improve upon or innovate new features that would provide value, and through conversations with our waitlist customers, we came up with a few things were small in nature but had a big impact on the customer experience of our product.
@@ -263,6 +245,26 @@ Most credit cards have a rewards system that is very fixed, with cashback catego
 Credit card APRs are ridiculous, and it would be a big relief for some if they could finance certain individual transactions for a small monthly fee.
 
 <div class="case-image"><img src="/assets/images/projects/crux/finance.png" data-zoom="zoom"></div>
+
+# Other visual things
+
+### Icons that spark joy
+
+Transactions are not the most interesting thing in the world to look at. They’re not always the easiest thing to decipher sometimes, as well. I created an icon set for all the transactions categories laid out for us in the API, with hopes that it will make transactions easier to scan and understand.
+
+<div class="case-image"><img src="/assets/images/projects/crux/icons.png" data-zoom="zoom"></div>
+
+### Illustrations that delight
+
+There are a lot of different states, and again, we want to be a friendly, approachable bank. I made some colorful illustrations to add delight to otherwise empty screens, and to visual convey information.
+
+<div class="case-image"><img src="/assets/images/projects/crux/illustrations.png" data-zoom="zoom"></div>
+
+### Styleguides and components
+
+For the sake of keeping things neat, consistent, easy to update, and easily referencable by engineering, I put together component guides complete with specifications.
+
+<div class="case-image"><img src="/assets/images/projects/crux/stylesheet.png" data-zoom="zoom"></div>
 
 # Lessons and takeaways
 
