@@ -8,11 +8,9 @@
     }
 
     h1 {
-        font-family: $serif;
         color: $white;
         font-size: $heading-size;
         line-height: $heading;
-        font-weight: $regular;
         text-align: center;
         grid-column: span 12;
 
@@ -26,10 +24,7 @@
     }
 
     p {
-        font-family: $sans-serif;
         color: $white;
-        font-size: $body-size;
-        line-height: $paragraph;
         grid-column: 4/10;
         text-align: center;
 
@@ -82,11 +77,6 @@
 .case-text {
 
     h1 {
-        font-family: $serif;
-        color: $black;
-        font-size: $heading-size;
-        line-height: $heading;
-        font-weight: $regular;
         margin-top: 48px;
         grid-column: 4/10;
 
@@ -101,10 +91,6 @@
 
     h3 {
         font-family: $sans-serif;
-        color: $black;
-        font-size: $subheader-size;
-        line-height: $subheader;
-        font-weight: $regular;
         grid-column: 4/10;
         margin-bottom: 8px;
         font-weight: 700;
@@ -119,10 +105,6 @@
     }
 
     p {
-        font-family: $sans-serif;
-        color: $grey;
-        font-size: $body-size;
-        line-height: $paragraph;
         grid-column: 4/10;
 
         @include respond (tablet) {
@@ -286,11 +268,6 @@
         padding: 72px 0 72px 0;
 
         h1 {
-            font-family: $serif;
-            color: $white;
-            font-size: $heading-size;
-            line-height: $heading;
-            font-weight: $regular;
             text-align: left;
             grid-column: span 12;
 

@@ -12,6 +12,27 @@ $breakpoint argument choices
 body {
   margin: 0; }
 
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #152425;
+  line-height: 36px; }
+
+h3 {
+  font-family: "Playfair Display", serif;
+  color: #152425;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400; }
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #304445;
+  line-height: 28.8px; }
+
 .container {
   max-width: 960px;
   display: grid;
@@ -28,36 +49,16 @@ body {
     .container {
       grid-template-columns: repeat(4, 1fr); } }
 
-.password {
-  grid-column: 4/9;
-  margin-top: 144px; }
+.hero-text {
+  grid-column: span 6;
+  margin: 72px 0 72px 0; }
   @media only screen and (max-width: 768px) {
-    .password {
-      grid-column: 2/8; } }
+    .hero-text {
+      grid-column: span 6; } }
   @media only screen and (max-width: 500px) {
-    .password {
-      grid-column: span 4; } }
-  .password h1 {
-    font-family: "Playfair Display", serif, Serif;
-    font-size: 30px;
-    line-height: 36px;
-    color: #152425; }
-  .password p {
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
-    line-height: 28.8px;
-    color: #152425; }
-  .password .button {
-    background-color: #152425;
-    border: none;
-    color: #ffffff;
-    padding: 16px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: sans-serif;
-    font-size: 16px;
-    cursor: pointer; }
+    .hero-text {
+      grid-column: span 4;
+      margin-bottom: 24px; } }
 
 a {
   text-decoration: none;
@@ -108,6 +109,85 @@ nav {
     nav ul li:last-child {
       margin-right: 0; }
 
+.projects .container .hero-text {
+  margin: 0;
+  display: none; }
+  @media only screen and (max-width: 500px) {
+    .projects .container .hero-text {
+      display: block; } }
+.projects .container .project-thumbnail {
+  grid-column: span 12;
+  margin-bottom: 48px;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  border: none;
+  box-shadow: none;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s; }
+  @media only screen and (max-width: 768px) {
+    .projects .container .project-thumbnail {
+      grid-column: span 8; } }
+  @media only screen and (max-width: 500px) {
+    .projects .container .project-thumbnail {
+      grid-column: span 4; } }
+  .projects .container .project-thumbnail img {
+    display: block; }
+  .projects .container .project-thumbnail .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.75);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    text-align: center; }
+    @media only screen and (max-width: 500px) {
+      .projects .container .project-thumbnail .overlay h1 {
+        font-size: 20px;
+        line-height: 24px;
+        margin-right: 8px;
+        margin-left: 8px; } }
+    @media only screen and (max-width: 500px) {
+      .projects .container .project-thumbnail .overlay p {
+        margin-right: 8px;
+        margin-left: 8px; } }
+  .projects .container .project-thumbnail:hover {
+    border: none;
+    box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.1); }
+    .projects .container .project-thumbnail:hover img {
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1); }
+    .projects .container .project-thumbnail:hover .overlay {
+      opacity: 1; }
+  .projects .container .project-thumbnail img {
+    width: 100%;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s; }
+  .projects .container .project-thumbnail h3 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #152425; }
+  .projects .container .project-thumbnail p {
+    margin-top: 0;
+    color: #304445; }
+.projects .container .project-thumbnail:last-child {
+  margin-bottom: 0; }
+
 .about-image {
   grid-column: 1/6;
   padding: 20px 48px 48px 48px;
@@ -134,44 +214,9 @@ nav {
     .about-text {
       grid-column: span 4;
       margin-top: 24px; } }
-  .about-text h1 {
-    font-family: "Playfair Display", serif;
-    color: #152425;
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: 400; }
-  .about-text h3 {
-    font-family: "Playfair Display", serif;
-    color: #152425;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 400; }
-  .about-text p {
-    font-family: "Nunito", sans-serif;
-    color: #304445;
-    font-size: 16px;
-    line-height: 28.8px; }
   .about-text p:last-child {
     margin-bottom: 48px; }
 
-footer h1 {
-  font-family: "Playfair Display", serif;
-  font-weight: 400;
-  font-size: 30px;
-  color: #152425;
-  line-height: 36px; }
-footer h3 {
-  font-family: "Playfair Display", serif;
-  color: #152425;
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 400; }
-footer p {
-  font-family: "Nunito", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: #304445;
-  line-height: 28.8px; }
 footer .footer-text {
   grid-column: 1/7;
   margin: 72px 0 0 0; }
@@ -225,124 +270,34 @@ footer .social-small {
   footer .social-small p a:first-child {
     margin-right: 16px; }
 
-.hero-text {
-  grid-column: span 6;
-  margin: 72px 0 72px 0; }
-  @media only screen and (max-width: 768px) {
-    .hero-text {
-      grid-column: span 6; } }
-  @media only screen and (max-width: 500px) {
-    .hero-text {
-      grid-column: span 4;
-      margin-bottom: 24px; } }
-  .hero-text h1 {
-    font-family: "Playfair Display", serif;
-    font-weight: 400;
-    font-size: 30px;
-    color: #152425; }
-  .hero-text p {
-    font-family: "Nunito", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #304445;
-    line-height: 28.8px; }
+.fourohfour {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
-.projects .container .hero-text {
-  margin: 0;
-  display: none; }
-  @media only screen and (max-width: 500px) {
-    .projects .container .hero-text {
-      display: block; } }
-
-.project-thumbnail {
-  grid-column: span 12;
-  margin-bottom: 48px;
-  overflow: hidden;
-  box-sizing: border-box;
-  display: block;
-  position: relative;
-  border: none;
-  box-shadow: none;
-  transition: all 1s;
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s; }
+.password {
+  grid-column: 4/9;
+  margin-top: 144px; }
   @media only screen and (max-width: 768px) {
-    .project-thumbnail {
-      grid-column: span 8; } }
+    .password {
+      grid-column: 2/8; } }
   @media only screen and (max-width: 500px) {
-    .project-thumbnail {
+    .password {
       grid-column: span 4; } }
-  .project-thumbnail img {
-    display: block; }
-  .project-thumbnail .overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(255, 255, 255, 0.75);
-    z-index: 999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    opacity: 0;
-    transition: all 1s;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    text-align: center; }
-    .project-thumbnail .overlay h1 {
-      font-family: "Playfair Display", serif;
-      font-size: 30px;
-      line-height: 36px;
-      font-weight: 400;
-      color: #152425; }
-      @media only screen and (max-width: 500px) {
-        .project-thumbnail .overlay h1 {
-          font-size: 20px;
-          line-height: 24px;
-          margin-right: 8px;
-          margin-left: 8px; } }
-    .project-thumbnail .overlay p {
-      font-family: "Nunito", sans-serif;
-      font-size: 16px;
-      font-weight: 400;
-      color: #304445;
-      line-height: 28.8px; }
-      @media only screen and (max-width: 500px) {
-        .project-thumbnail .overlay p {
-          margin-right: 8px;
-          margin-left: 8px; } }
-  .project-thumbnail:hover {
+  .password .button {
+    background-color: #152425;
     border: none;
-    box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.1); }
-    .project-thumbnail:hover img {
-      -moz-transform: scale(1.1);
-      -webkit-transform: scale(1.1);
-      transform: scale(1.1); }
-    .project-thumbnail:hover .overlay {
-      opacity: 1; }
-  .project-thumbnail img {
-    width: 100%;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    transition: all 1s; }
-  .project-thumbnail h3 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 8px;
-    color: #152425; }
-  .project-thumbnail p {
-    font-family: "Nunito", sans-serif;
-    font-weight: 400;
+    color: #ffffff;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: sans-serif;
     font-size: 16px;
-    margin-top: 0;
-    color: #304445;
-    line-height: 28.8px; }
-
-.project-thumbnail:last-child {
-  margin-bottom: 0; }
+    cursor: pointer; }
 
 .case-intro {
   width: 100%;
@@ -351,11 +306,9 @@ footer .social-small {
   .case-intro .container {
     padding: 72px 0 72px 0; }
   .case-intro h1 {
-    font-family: "Playfair Display", serif;
     color: #ffffff;
     font-size: 30px;
     line-height: 36px;
-    font-weight: 400;
     text-align: center;
     grid-column: span 12; }
     @media only screen and (max-width: 768px) {
@@ -365,10 +318,7 @@ footer .social-small {
       .case-intro h1 {
         grid-column: span 4; } }
   .case-intro p {
-    font-family: "Nunito", sans-serif;
     color: #ffffff;
-    font-size: 16px;
-    line-height: 28.8px;
     grid-column: 4/10;
     text-align: center; }
     @media only screen and (max-width: 768px) {
@@ -406,11 +356,6 @@ footer .social-small {
     display: block; }
 
 .case-text h1 {
-  font-family: "Playfair Display", serif;
-  color: #152425;
-  font-size: 30px;
-  line-height: 36px;
-  font-weight: 400;
   margin-top: 48px;
   grid-column: 4/10; }
   @media only screen and (max-width: 768px) {
@@ -421,10 +366,6 @@ footer .social-small {
       grid-column: span 4; } }
 .case-text h3 {
   font-family: "Nunito", sans-serif;
-  color: #152425;
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 400;
   grid-column: 4/10;
   margin-bottom: 8px;
   font-weight: 700; }
@@ -435,10 +376,6 @@ footer .social-small {
     .case-text h3 {
       grid-column: span 4; } }
 .case-text p {
-  font-family: "Nunito", sans-serif;
-  color: #304445;
-  font-size: 16px;
-  line-height: 28.8px;
   grid-column: 4/10; }
   @media only screen and (max-width: 768px) {
     .case-text p {
@@ -550,11 +487,6 @@ footer .social-small {
   .case-end .container {
     padding: 72px 0 72px 0; }
     .case-end .container h1 {
-      font-family: "Playfair Display", serif;
-      color: #ffffff;
-      font-size: 30px;
-      line-height: 36px;
-      font-weight: 400;
       text-align: left;
       grid-column: span 12; }
       @media only screen and (max-width: 768px) {
