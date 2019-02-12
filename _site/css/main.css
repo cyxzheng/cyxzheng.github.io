@@ -327,6 +327,16 @@ footer .social-small {
     @media only screen and (max-width: 500px) {
       .case-intro p {
         grid-column: span 4; } }
+  .case-intro a {
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -webkit-transition: all 0.1s; }
+    .case-intro a:hover {
+      color: #6FB9BE;
+      border-bottom: 1px solid #6FB9BE; }
   .case-intro .caption {
     font-family: "Nunito", sans-serif;
     color: #ffffff;

@@ -6,7 +6,7 @@ preview: Building the bank of the future.
 order: 2
 thumbnail: /assets/images/projects/crux/thumbnail.png
 cover: /assets/images/projects/crux/cover.png
-blurb: The team and I at Halleman Bradley aim to be at the center of a consumer's financial life, challenging the perception that banks don't work for their customers. By utilizing technology and leveraging data, we can provide a better, friendlier product than what currently exists on the market. </br> </br> I started with Halleman Bradley at the earliest stages, leading design for the company and moving us from 0 to 1.
+blurb: The team and I at <a href="https://hmbradley.com" target="_blank">Halleman Bradley</a> have spent the last year trying to <a href="https://launch.trycrux.com/" target="_blank">re-imagine banking from scratch</a>. While we aim to be at the center of a consumer's financial life, we also needed to challenge the perception that banks don't work for their customers. By utilizing technology and leveraging data, we believe we can provide a better, friendlier experience than what currently exists on the market. </br> </br> I started with the team at Halleman Bradley at the earliest stages by leading design for the company and moving us from 0 to 1. This is our story.
 next-title: Property Inspector
 next-url: /property/
 ---
