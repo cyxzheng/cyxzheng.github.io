@@ -498,7 +498,8 @@ footer .social-small {
     padding: 72px 0 72px 0; }
     .case-end .container h1 {
       text-align: left;
-      grid-column: span 12; }
+      grid-column: span 12;
+      color: #ffffff; }
       @media only screen and (max-width: 768px) {
         .case-end .container h1 {
           grid-column: span 8; } }

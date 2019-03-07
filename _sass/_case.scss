@@ -284,6 +284,7 @@
         h1 {
             text-align: left;
             grid-column: span 12;
+            color: $white;
 
             @include respond (tablet) {
                 grid-column: span 8;
