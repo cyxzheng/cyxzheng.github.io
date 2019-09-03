@@ -80,33 +80,23 @@
     }
 }
 
+.recent {
+    grid-column: span 6;
+}
+
 .archive {
     .container {
-        .posts-list {
-            grid-column: 3/11;
+        .entry {
+            grid-column: span 6;
 
-            ul {
-                list-style-type: none;
-                padding: 0;
+            a {
+                display: block;
+                height: 72px;
+                border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 
-                a {
-                    display: block;
-                    height: 72px;
-                    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-
-                    &:hover {
-                        background: rgba(0, 0, 0, 0.1);
-                        border-bottom: 2px solid rgba(0, 0, 0, 0);
-                    }
-
-                    li {
-
-
-                        font-weight: bold;
-
-                        line-height: 72px;
-                        padding-left: 16px;
-                    }
+                &:hover {
+                    background: rgba(0, 0, 0, 0.1);
+                    border-bottom: 2px solid rgba(0, 0, 0, 0);
                 }
             }
         }

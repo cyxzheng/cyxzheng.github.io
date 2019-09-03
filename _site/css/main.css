@@ -588,22 +588,18 @@ footer .social-small {
     background-position: 0 100%; }
   100% {
     background-position: 0 0; } }
-.archive .container .posts-list {
-  grid-column: 3/11; }
-  .archive .container .posts-list ul {
-    list-style-type: none;
-    padding: 0; }
-    .archive .container .posts-list ul a {
-      display: block;
-      height: 72px;
-      border-bottom: 2px solid rgba(0, 0, 0, 0.1); }
-      .archive .container .posts-list ul a:hover {
-        background: rgba(0, 0, 0, 0.1);
-        border-bottom: 2px solid rgba(0, 0, 0, 0); }
-      .archive .container .posts-list ul a li {
-        font-weight: bold;
-        line-height: 72px;
-        padding-left: 16px; }
+.recent {
+  grid-column: span 6; }
+
+.archive .container .entry {
+  grid-column: span 6; }
+  .archive .container .entry a {
+    display: block;
+    height: 72px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); }
+    .archive .container .entry a:hover {
+      background: rgba(0, 0, 0, 0.1);
+      border-bottom: 2px solid rgba(0, 0, 0, 0); }
 
 /*
 0 - 600x:   Phone

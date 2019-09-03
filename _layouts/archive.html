@@ -3,7 +3,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130594071-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-130594071-1');
@@ -18,9 +21,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/advanced-zoom.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Exo|Yeseva+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Exo|Yeseva+One" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -31,23 +34,28 @@
 
 <section class="for-hero">
     <div class="hero-for">
-        <h1>For You</h1>
-        <p>Sample cheesy description text here.</p>
+        <h1>Hellsssss</h1>
+        <p>Sample description text here.</p>
     </div>
 </section>
-<!--<section class="archive">
+<section class="posts">
     <div class="container">
-        <div class="posts-list">
-
-            <ul>
-                {% for post in site.posts %}
-                <a href="{{ post.url }}">
-                    <li>
-                        {{ post.title }}
-                    </li>
-                </a>
-                {% endfor %}
-            </ul>
+        {% assign sorted = site.entries | reverse %}
+        {% for post in sorted limit: 6 %}
+        <div class="recent">
+            {{ post.date | date: "%B %-d, %Y" }}
+            {{ post.content | strip_html | truncatewords:24}}
+            <a href="{{ post.url }}">
+                    Read more
+            </a>
         </div>
-    </div>
-</section>-->
+        {% endfor %}
+</section>
+{% assign sorted = site.entries | reverse %}
+{% for post in sorted offset: 6 %}
+<div class="entry">
+    <a href="{{ post.url }}">
+        {{ post.date | date: "%B %-d, %Y" }}
+    </a>
+</div>
+{% endfor %}
