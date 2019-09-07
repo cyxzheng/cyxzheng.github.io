@@ -1,61 +1,46 @@
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130594071-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+<!DOCTYPE html>
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+<html>
 
-        gtag('config', 'UA-130594071-1');
-    </script>
+{% include head2.html %}
 
-    {% if page.title %}
-    <title>{{ page.title }} - Calvin Zheng</title>
-    {% else %}
-    <title>Calvin Zheng</title>
-    {% endif %}
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" type="text/css" href="/css/advanced-zoom.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Exo|Yeseva+One" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#152425">
-    <meta name="theme-color" content="#ffffff">
-</head>
+<body lucy>
 
-<section class="for-hero">
-    <div class="hero-for">
-        <h1>Hellsssss</h1>
-        <p>Sample description text here.</p>
-    </div>
-</section>
-<section class="posts">
-    <div class="container">
-        {% assign sorted = site.entries | reverse %}
-        {% for post in sorted limit: 6 %}
-        <div class="recent">
-            {{ post.date | date: "%B %-d, %Y" }}
-            {{ post.content | strip_html | truncatewords:24}}
-            <a href="{{ post.url }}">
-                    Read more
-            </a>
+    <section class="lucy">
+        <div class="hero">
+            <div class="lucy-blurb">
+                <h1>Dear Lucy,</h1>
+                <p>This is a collection of memories. So many things happen that we might just forget later, so for the ones I want us to remember, I write down. You can check this occasionally, because I'll continue to keep adding to this for as long as I can.</p>
+                <a href="/entries/2018-11-02.html">From the beginning</a>
+            </div>
+            <img src="/assets/images/about/us.jpg">
         </div>
-        {% endfor %}
-</section>
-{% assign sorted = site.entries | reverse %}
-{% for post in sorted offset: 6 %}
-<div class="entry">
-    <a href="{{ post.url }}">
-        {{ post.date | date: "%B %-d, %Y" }}
-    </a>
-</div>
-{% endfor %}
+        <div class="container">
+            <h1>Latest Entry</h1>
+            {% assign sorted = site.entries | reverse %}
+            {% for post in sorted limit: 1 %}
+            <div class="recent">
+                <h3>{{ post.title }}</h3>
+                <time class="date">{{ post.date | date: "%B %-d, %Y" }}</time>
+                <p>{{ post.content | strip_html | truncatewords:48}}</p>
+                <a href="{{ post.url }}">
+                    Read more
+                </a>
+            </div>
+            {% endfor %}
+            <h1>All Entries</h1>
+            {% assign sorted = site.entries | reverse %}
+            {% for post in sorted offset: 1 %}
+            <a class="entry" href="{{ post.url }}">
+                <div class="each">
+                    <h4>{{ post.title }}</h4>
+                    <time class="date"> {{ post.date | date: "%B %-d, %Y" }}</time>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+
+</body>
+
+</html>
