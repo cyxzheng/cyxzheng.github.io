@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: For You
-permalink: /foryou/
+title: Dear Lucy
+permalink: /dearlucy/
 ---
 
