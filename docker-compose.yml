@@ -1,0 +1,12 @@
+version: "2"
+services:
+
+  jekyll:
+    image: jekyll/jekyll
+    command: jekyll serve --incremental --force_polling
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/srv/jekyll
+    environment:
+      JEKYLL_ENV: development
