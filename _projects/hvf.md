@@ -118,6 +118,8 @@ We kept the focus on wanting to hire EIRs and Builders, but tweaked the copy to 
 
 The home page acts as the hook, where HVF Labs' proven track record and unique way of starting companies would hopefully interest potential hires. If the viewer is intrigued, they'll either head over to the About page to learn more, or click the call-to-action at the bottom to reach out.
 
+I also designed a dot grid background, to mimic that of a dotted notebook. I thought this was a fitting way to add a little bit of texture and personality to a website of a company who's sole purpose is to iterate rapidly on new ideas.
+
 <div class="image"><img class="shadow" src="../assets/images/projects/hvf/homefinal.png"></div>
 
 ### 3. How we do it
@@ -139,10 +141,6 @@ When new companies exit HVF, they get added to the hero on the home page. I wrot
 Netlify CMS allows for every single piece of copy on the website to be edited. This enables future updates without the need to know code, because all updates can be written in plaintext. 
 
 <div class="image"><img src="../assets/images/projects/hvf/markdown.png"></div>
-
-### Grid notebook background
-
-To add a little bit of texture and personality to a website belonging to a company who's sole purpose is to iterate rapidly on new ideas.
 
 ### Sticky navbar
 

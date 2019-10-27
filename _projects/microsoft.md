@@ -1,7 +1,9 @@
 ---
 layout: project
-title: Microsoft
+title: Microsoft 365 "What's New"
 permalink: /microsoft
+cover: /assets/images/projects/microsoft/cover.png
+intro: New features are shipped weekly to the M365 Admin Center, and at that frequency, how do we educate users on all of them? Beyond simply directing them to an article that they may or may not read, there had to be a way to teach users without disrupting their work. </br> </br> I designed a new way of contextual alerting for the M365 Design System.
 ---
 
 ## My role
@@ -85,8 +87,6 @@ The callout with text appears first, being the bigger object, with the intention
 
 ### What did users think?
 
-
-
 <div class="image"><img src="/assets/images/projects/microsoft/quote1.png"></div>
 
 <div class="image"><img src="/assets/images/projects/microsoft/comparisons.png"></div>
@@ -137,7 +137,7 @@ While the sweep and badge draws attention to the new feature, the callout educat
 
 Our user researchers are amazing, turning this around right before I gave my final presentation. 
 
-(quotes)
+<div class="image"><img src="/assets/images/projects/microsoft/quote2.png"></div>
 
 The feedback was positive, and shows that our hypothesis is on the right track. It looks like contextual alerting is better for showing and educating users on what's new.
 
