@@ -1,7 +1,7 @@
 .project-header {
 
     .intro {
-        background: #000;
+        //background: #0D1527;
         padding: 96px 0;
 
         h1 {
@@ -63,6 +63,45 @@
         margin-top: 16px;
     }
 
+    blockquote {
+        max-width: 600px;
+        margin: 0 auto;
+        margin-top: 16px;
+        background: rgba(255, 255, 255, 0.05);
+        border-left: 1px solid $pink;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+        p {
+            color: white;
+            font-style: italic;
+            font-size: 24px;
+            max-width: 600px;
+            margin-left: 24px;
+            line-height: 34px;
+        }
+
+        .quotee {
+            font-size: 16px;
+            font-style: normal;
+            line-height: 16px;
+            margin-bottom: 40px;
+        }
+
+        .quotee:last-child {
+            margin-bottom: 24px;
+        }
+    }
+
+    /*blockquote::before, blockquote::after {
+        content: '';
+        display: block;
+        background: black;
+        width: 10%;
+        height: 1px;
+        margin: 0 auto;
+    }*/
+
     .highlighter-rouge {
         background: rgba(0, 0, 0, 0.1);
     }
@@ -73,9 +112,10 @@
         font-weight: normal;
         font-size: 16px;
         line-height: 24px;
-        color: rgba(0, 0, 0, 0.8);
+        color: $white;
         max-width: 600px;
         margin: 0 auto;
+        margin-top: 16px;
     }
 
     .image {
@@ -87,23 +127,43 @@
         img, video {
             display: block;
             width: 100%;
+            margin-bottom: 24px;
         }
 
         .shadow {
             box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.05)
         }
+
+        h5 {
+            font-style: italic;
+            max-width: 600px;
+        }
     }
 
-    .img-grid {
-        max-width: 600px;
+    .bg {
+        background: $white;
+    }
+
+    .img-grid-gifs {
+        max-width: 1200px;
+        background: #836AE9;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         margin: 0 auto;
         margin-top: 48px;
         margin-bottom: 64px;
 
         .image {
-            margin: 0;
+            margin: 24px;
+            padding: 48px;
+            background: $white;
+            box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.1);
+
+            img {
+                margin: 0 auto;
+                height: 90%;
+                width: auto;
+            }
         }
     }
 
@@ -112,11 +172,18 @@
         display: flex;
         justify-content: space-around;
         margin: 0 auto;
-        margin-top: 48px;
-        margin-bottom: 64px;
+        margin-bottom: 16px;
 
         .image {
             margin: 0;
+
+            img {
+                height: auto;
+                width: 70%;
+                margin: 0 auto;
+                margin-top: 24px;
+                margin-bottom: 24px;
+            }
         }
     }
 }

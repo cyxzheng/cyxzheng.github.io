@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: #0D1527;
+}
+
+.grid {
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 1200px;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+
+    .grid-group:nth-child(1) {
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .grid-group {
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        width: 25%;
+        height: 100%;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 -0.15rem 0 $pink;
+
+    &:hover {
+        box-shadow: inset 0 -1.2rem 0 $pink;
+        color: $black;
+    }
+}

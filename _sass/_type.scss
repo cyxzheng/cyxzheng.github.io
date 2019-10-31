@@ -1,3 +1,11 @@
+/* colors */
+
+$black: rgba(0, 0, 0, 0.9);
+$white: rgba(255, 255, 255, 1);
+$pink: #FF9FF0;
+
+/* type styles */
+
 h1 {
     font-family: "sofia-pro", sans-serif;
     font-style: normal;
@@ -5,7 +13,7 @@ h1 {
     font-size: 48px;
     line-height: 60px;
     letter-spacing: -0.02em;
-    color: rgba(0, 0, 0, 0.9);
+    color: $white;
 }
 
 h2 {
@@ -15,17 +23,18 @@ h2 {
     font-size: 38px;
     line-height: 45px;
     letter-spacing: -0.02em;
-    color: rgba(0, 0, 0, 0.9);
+    color: $white;
 }
 
 h3 {
     font-family: "sofia-pro", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 30px;
-    letter-spacing: -0.03em;
-    color: rgba(0, 0, 0, 0.9);
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: $pink;
 }
 
 h4 {
@@ -35,16 +44,16 @@ h4 {
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.01em;
-    color: rgba(0, 0, 0, 0.9);
+    color: $white;
 }
 
 h5 {
     font-family: "sofia-pro", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
-    color: rgba(0, 0, 0, 0.9);
+    color: $white;
 }
 
 p {
@@ -53,5 +62,5 @@ p {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    color: rgba(0, 0, 0, 0.8);
+    color: $white;
 }
