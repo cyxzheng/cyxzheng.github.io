@@ -1,6 +1,8 @@
 .hero {
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: 144px;
+    margin-bottom: 96px;
 }
 
 .work {
@@ -27,7 +29,7 @@
 
         .overlay-text {
             position: absolute;
-            bottom: 24px;
+            bottom: 16px;
             left: 24px;
             opacity: 0;
             transition: 0.4s ease;

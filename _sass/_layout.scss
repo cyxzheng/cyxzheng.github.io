@@ -3,6 +3,55 @@ body {
     background: #0D1527;
 }
 
+.nav {
+    position: fixed;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px 0;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    .logo-home {
+        width: 64px;
+        height: 64px;
+        display: block;
+        border-left: 1px solid $pink;
+        text-decoration: none;
+        box-shadow: none;
+        position: relative;
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 0;
+            overflow: hidden; 
+            height: 100%;
+            background: $pink;
+            transition: 0.2s ease-in-out;
+            z-index: -1;
+        }
+
+        img {
+            display: block;
+            box-sizing: border-box;
+            width: 64px;
+            padding: 8px;
+        }
+    }
+
+    .logo-home:hover .overlay {
+        width: 100%;
+    }
+
+    .logo-home:hover img {
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(119deg) brightness(104%) contrast(102%);
+    }
+}
+
 .grid {
     position: fixed;
     margin: 0 auto;
@@ -18,11 +67,11 @@ body {
     justify-content: space-evenly;
 
     .grid-group:nth-child(1) {
-        border-left: 1px solid rgba(255, 255, 255, 0.1);
+        border-left: 1px solid rgba(255, 255, 255, 0.05);
     }
 
     .grid-group {
-        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        border-right: 1px solid rgba(255, 255, 255, 0.05);
         width: 25%;
         height: 100%;
     }

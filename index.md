@@ -1,3 +1,3 @@
 ---
-layout: wip
+layout: home
 ---
