@@ -4,6 +4,7 @@ title: HVFLabs.com
 order: 2
 permalink: /hvf/
 preview: I built a website for Max Levchin.
+thumbnail: /assets/images/projects/hvf/thumbnail.mp4
 intro: While brilliant minds work for and start companies at HVF Labs, the website didn't quite reflect that. First impressions matter, and if we wanted to attract talent and look credible, we needed a website to match our track record. </br> </br> This was a three week project where I designed and implemented a new website for HVF Labs.
 cover: /assets/images/projects/hvf/cover.png
 ---
