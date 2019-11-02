@@ -3,7 +3,7 @@ layout: project
 order: 1
 title: Microsoft 365 &ldquo;What&rsquo;s New&rdquo;
 preview: Informing without disrupting.
-permalink: /microsoft
+permalink: /microsoft/
 cover: /assets/images/projects/microsoft/cover.png
 thumbnail: /assets/images/projects/microsoft/thumbnail.mp4
 intro: New features are shipped weekly to the M365 Admin Center, and at that frequency, how do we educate users on all of them? Beyond simply directing them to an article that they may or may not read, there had to be a way to teach users without disrupting their work. </br> </br> I designed a new way of contextual alerting for the M365 Design System.
