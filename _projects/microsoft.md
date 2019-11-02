@@ -43,19 +43,16 @@ I asked my PM, “What are some “must-knows” for the user?” and prioritize
 When new features are released for the admin dashboard, they’ll be highlighted and the user has the option to add or dismiss the card.
 
 <div class="image"><img class="shadow" src="/assets/images/projects/microsoft/early1.png"><h5>A new feature on the dashboard would be highlighted by a coloured card</h5></div>
-
 ### New things in the panel
 
 When new features are released in the side panel, they’re tagged “New” so that the user is aware.
 
 <div class="image"><img class="shadow" src="/assets/images/projects/microsoft/early2.png"><h5>New features in a panel would be labelled with a tag</h5></div>
-
 ### New things on a page
 
 In pages other than the main dashboard, new features are highlighted in a big card so that users can learn about it.
 
 <div class="image"><img class="shadow" src="/assets/images/projects/microsoft/early3.png"><h5>New features on a page would be featured by a big banner</h5></div>
-
 ## These weren’t bad, but...
 
 The problem with each of my explorations were that they only solved the What’s New problem for that particular screen. There was no consistency, and this was hard to work into a system. We took a step back after this to think about how What’s New can fit in everywhere.
@@ -81,7 +78,6 @@ I used motion and colour to create two alerts for a new card, so that we could t
 A large sweeping motion draws attention to the item with new features, before shrinking out of view but leaving behind a persistent indicator (which will disappear upon interaction).
 
 <div class="image"><video class="shadow" autoplay muted loop playsinline><source src="/assets/images/projects/microsoft/early4.mp4" type="video/mp4"></video><h5>Similar motion accompanies the new item within the panel, reinforcing a system</h5></div>
-
 ### Using a call-out 
 
 A call-out with copy describing the new feature appears first, and after a small delay, a dot badge follows. The delay is meant to allow users time to shift their attention over to the area of interest, so that they can notice the dot badge appearing.
@@ -92,13 +88,11 @@ A call-out with copy describing the new feature appears first, and after a small
 > “[I chose] the Sweep flow [for visual appeal] just because of the slide out. I’m so used to seeing a little dot [badge] and [the badge] is not that noticeable. It’s much better with the slide out.”
 >
 > <p class="quotee">— Participant 10</p>
->
-> “Had I been looking down at the lower left corner [of my screen], I might not have caught the Call-out as easily as the Sweep.”
->
-> <p class="quotee">— Participant 4</p>
+>“Had I been looking down at the lower left corner [of my screen], I might not have caught the Call-out as easily as the Sweep.”
+> 
+><p class="quotee">— Participant 4</p>
 
 <div class="image"><img src="/assets/images/projects/microsoft/comparisons.png"></div>
-
 We didn’t scrap the badge option. We inferred from the user testing comments that just a badge is not enough, and that an attention grabber (like the sweep) to go along with it can help draw attention, and reinforce a system.
 
 ## Further refinements
@@ -126,26 +120,22 @@ Because M365 is a web product, we took into consideration the fact that everythi
 With containers as a constraint in mind, I decided to limit the sweep to the element we want to draw attention to. A dot badge would follow, and stay persistent, until the user interacts with the new feature. A dot badge is something that everyone in this day and age is accustomed to seeing as "new", so I leveraged that knowledge in my design.
 
 <div class="image"><video class="shadow" autoplay muted loop playsinline><source src="/assets/images/projects/microsoft/final1.mp4" type="video/mp4"></video><h5>The alert consists of drawing attention, followed by notification</h5></div>
-
 ### Working elsewhere
 
 I created another motion study, showing the application of this system on the side navigation and in a different page. This was to show that this works elsewhere, and that the colour and badging can be used to create a recognizable contextual alerting system.
 
 <div class="image"><video class="shadow" autoplay muted loop playsinline><source src="/assets/images/projects/microsoft/final2.mp4" type="video/mp4"></video><h5>While the side navigation items are a different width, the spacing and height are similar enough to allow this system to work</h5></div>
-
 ### Stress test
 
 I put a bunch of dot badges on the dashboard, to show that it won’t overwhelm a user. As a precaution, we also set a time of 45 days before the dots disappear, if the user doesn’t dismiss them. This time period was decided based on the longest time between logins, which happened to be 6 weeks. Further tweaking, if needed, will be done based on future feedback.
 
 <div class="image"><img class="shadow" src="/assets/images/projects/microsoft/stress1.png"><h5>Multiple badges on the dashboard</h5></div>
 <div class="image"><img class="shadow" src="/assets/images/projects/microsoft/stress2.png"><h5>Showing that the purple badge can live alongside existing badges of different colours</h5></div>
-
 ### Copy  is important too!
 
-While the sweep and badge draws attention to the new feature, the call-out educates on where the new feature is. The copy should succinctly explain what the new feature is, and where to find it, which is even more important for the case where a feature lives 3 or 4 levels deep into a page.
+The sweeping motion and dot badge draws attention to the new feature, and the call-out does the educating. The copy written in the call-out doesn’t only educate users on what the new feature is. In some cases, where a feature could be buried 2 or 3 levels deep in a page, the call-out is there to educate users on where it is.
 
 <div class="image"><img class="shadow" src="/assets/images/projects/microsoft/verbiage.png"><h5>In this case, the dot badge would be extremely redundant if it was displayed on each user panel</h5></div>
-
 ##  How did the new design do?
 
 Our user researchers are amazing, turning this around right before I gave my final presentation. 
@@ -153,10 +143,9 @@ Our user researchers are amazing, turning this around right before I gave my fin
 > “It’s cool that it kinda flashes over [Add Card] and becomes a small circle and let’s you know, ‘Hey, you can click here.’”
 >
 > <p class="quotee">— Participant 2</p>
->
-> “I like that it’s not too much of a distraction, but it’s enough to get your attention. It changes the colour of the Add Card button and then it changes the text colour and shows that dot. So I think it stands out.”
->
-> <p class="quotee">— Participant 7</p>
+>“I like that it’s not too much of a distraction, but it’s enough to get your attention. It changes the colour of the Add Card button and then it changes the text colour and shows that dot. So I think it stands out.”
+> 
+><p class="quotee">— Participant 7</p>
 
 The feedback was positive, and shows that our hypothesis is on the right track. It looks like contextual alerting is better for showing and educating users on what’s new.
 
@@ -178,7 +167,6 @@ While What’s New is currently an article, soon to be a contextual alerting sys
 
 <div class="image"><img class="shadow" src="/assets/images/projects/microsoft/whatsnewpanel.png"><h5>Moving the article into a panel to prevent disrupting a user in the middle of their workflow</h5></div>
 <div class="image"><img class="shadow" src="/assets/images/projects/microsoft/whatsnewpage.png"><h5>A destination with more than just news</h5></div>
-
 ## Some other work I did
 
 While What’s New was my main project at Microsoft, I tried to get my feet wet by working on a few smaller projects with different teams and individuals. I wanted to learn as much as I could during my 12 short weeks, and what better way to do that than to try out different things?
@@ -190,7 +178,6 @@ I created some different illustrations for the first-run experience banner on Ad
 <div class="image bg"><img src="/assets/images/projects/microsoft/fre1.png"></div>
 <div class="image"><img class="shadow" src="/assets/images/projects/microsoft/fre2.png"></div>
 <div class="image"><img class="shadow" src="/assets/images/projects/microsoft/fre3.png"><h5>Imagining setting up Admin Center as setting up an office</h5></div>
-
 ### Welcome Banner
 
 Our welcome banner was in need of a refresh, and I flexed my creative muscles to come up with over 30 variations, and landed on three of my favourites. I tried to push the boundary in terms of how we could use different illustrations, sizes, and orientations to better onboard new users.
