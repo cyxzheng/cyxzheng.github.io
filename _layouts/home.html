@@ -8,6 +8,33 @@
     {% include grid.html %}
     {% include hero.html %}
     {% include work.html %}
+
+    <div class="footer">
+        <h2>Wanna chat?</h2>
+        <p>You can reach me on <a href="m.me/cowvinzheng">Messenger</a>, <a href="https://www.linkedin.com/in/zhengcalvin/">LinkedIn</a>, or through <a href="mailto:cyxzheng@gmail.com">email</a>.</p>
+    </div>
 </body>
+
+<script>
+        $(document).ready(function () {
+            var navcontain = $(".nav-contain");
+            var navbar = $(".nav");
+            var logo = $(".logo-home");
+            var pos = navbar.position();
+    
+            $(window).scroll(function () {
+                var windowpos = $(window).scrollTop();
+                if (windowpos >= 25) {
+                    navbar.addClass("scrolly");
+                    navcontain.addClass("scrolly-bg");
+                    logo.addClass("scrolly-logo");
+                } else {
+                    navbar.removeClass("scrolly");
+                    navcontain.removeClass("scrolly-bg");
+                    logo.removeClass("scrolly-logo");
+                }
+            });
+        });
+    </script>
 
 </html>

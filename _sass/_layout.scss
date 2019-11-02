@@ -1,6 +1,10 @@
 body {
     margin: 0;
     background: #0D1527;
+
+    @include respond(laptop) {
+        margin: 0 16px;
+    }
 }
 
 .nav-contain {
@@ -10,6 +14,10 @@ body {
     left: 0;
     right: 0;
     transition: 0.2s ease-in-out;
+
+    @include respond(laptop) {
+        margin: 0 16px;
+    }
 
     .nav {
         max-width: 1200px;
@@ -90,6 +98,7 @@ body {
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
+    box-sizing: border-box;
 
     .grid-group:nth-child(1) {
         border-left: 1px solid rgba(255, 255, 255, 0.05);
@@ -99,6 +108,20 @@ body {
         border-right: 1px solid rgba(255, 255, 255, 0.05);
         width: 25%;
         height: 100%;
+    }
+
+    @include respond(laptop) {
+        padding: 0 16px;
+    }
+
+    @include respond(phone) {
+        .grid-group:nth-child(2), .grid-group:nth-child(3) {
+            display: none;
+        }
+
+        .grid-group { 
+            width: 50%;
+        }
     }
 }
 

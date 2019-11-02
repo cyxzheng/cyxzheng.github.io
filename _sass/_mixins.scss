@@ -1,0 +1,31 @@
+// Media Queries
+/*
+0 - 600x:   Phone
+600-900px:  Tablet Portrait
+900-1200px: Tablet Landscape
+1800px +:   Large Desktop
+$breakpoint argument choices
+- Phone
+- tab-port
+- tab-land
+- big-desktop
+*/
+
+@mixin respond($breakpoint) {
+    
+    @if $breakpoint == phone {
+        @media only screen and (max-width: 500px) { @content };    // 500px
+    }
+
+    @if $breakpoint == tablet {
+        @media only screen and (max-width: 768px) { @content };     // 768 px
+    }
+
+    @if $breakpoint == tablet-wide {
+        @media only screen and (max-width: 1000px) { @content };    // 1000px
+    }
+
+    @if $breakpoint == laptop {
+        @media only screen and (max-width: 1200px) { @content };   // 1366px
+    }
+}

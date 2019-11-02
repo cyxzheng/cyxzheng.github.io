@@ -2,21 +2,29 @@
 
     .intro {
         //background: #0D1527;
-        padding: 96px 0;
+        padding: 144px 0;
 
-        h1 {
-            text-align: center;
-            max-width: 600px;
-            margin: 0 auto;
-            margin-bottom: 16px;
-            color: #fff;
+        @include respond(tablet) {
+            padding-bottom: 48px;
         }
 
-        p {
+        h1, p {
             text-align: center;
             max-width: 600px;
             margin: 0 auto;
             color: #fff;
+
+            @include respond(laptop) {
+                max-width: 50%;
+            }
+
+            @include respond(tablet) {
+                max-width: 100%;
+            }
+        }
+
+        h1 {
+            margin-bottom: 16px;
         }
     }
 
@@ -37,9 +45,19 @@
     h3,
     h4,
     h5,
-    h6 {
+    h6,
+    p
+    {
         max-width: 600px;
         margin: 0 auto;
+
+        @include respond(laptop) {
+            max-width: 50%;
+        }
+
+        @include respond(tablet) {
+            max-width: 100%;
+        }
     }
 
     h2 {
@@ -58,8 +76,6 @@
     }
 
     p {
-        max-width: 600px;
-        margin: 0 auto;
         margin-top: 16px;
     }
 
@@ -71,6 +87,14 @@
         border-left: 1px solid $pink;
         padding-top: 8px;
         padding-bottom: 8px;
+
+        @include respond(laptop) {
+            max-width: 50%;
+        }
+
+        @include respond(tablet) {
+            max-width: 100%;
+        }
 
         p {
             color: white;
@@ -103,7 +127,7 @@
     }*/
 
     .highlighter-rouge {
-        background: rgba(0, 0, 0, 0.1);
+        background: rgba(255, 255, 255, 0.05);
     }
 
     ol, ul {
@@ -116,6 +140,14 @@
         max-width: 600px;
         margin: 0 auto;
         margin-top: 16px;
+
+        @include respond(laptop) {
+            max-width: 50%;
+        }
+
+        @include respond(tablet) {
+            max-width: 100%;
+        }
     }
 
     .image {
@@ -183,6 +215,55 @@
                 margin: 0 auto;
                 margin-top: 24px;
                 margin-bottom: 24px;
+            }
+        }
+    }
+}
+
+.case-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-evenly;
+
+    h3, p {
+        transition: 0.3s ease-in-out;
+    }
+
+    .back, .next {
+        padding: 40px 0;
+    }
+
+    .back {
+        width: 50%;
+        box-shadow: none;
+        transition: 0.3s ease-in-out;
+        border-left: 1px solid rgba(0, 0, 0, 0);
+
+        &:hover {
+            border-left: 1px solid $pink;
+            background: rgba(255, 255, 255, 0.05);
+
+            h3, p {
+                transform: translateX(24px);
+            }
+        }
+    }
+
+    .next {
+        text-align: right;
+        width: 50%;
+        box-shadow: none;
+        transition: 0.3s ease-in-out;
+        border-left: 1px solid rgba(0, 0, 0, 0);
+
+        &:hover {
+            border-right: 1px solid $pink;
+            background: rgba(255, 255, 255, 0.05);
+
+            h3, p {
+                transform: translateX(-24px);
             }
         }
     }

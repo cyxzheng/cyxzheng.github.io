@@ -6,10 +6,11 @@
             <video autoplay muted loop playsinline>
                 <source src="{{ project.thumbnail | prepend: site.baseurl }}" type="video/mp4">
             </video>
-            <div class="overlay"></div>
-            <div class="overlay-text">
-                <h3>{{ project.title }}</h3>
-                <p>{{ project.preview }}</p>
+            <div class="overlay">
+                <div class="overlay-text">
+                    <h2>{{ project.title }}</h2>
+                    <p>{{ project.preview }}</p>
+                </div>
             </div>
         </a>
     </div>
