@@ -37,7 +37,7 @@ We spent a day taking stock of what we currently had, and identified some areas 
 
 The old website was meant to resemble a code terminal. It was very text heavy, and very orange. We received feedback that the overall feeling of the website was "intimidating", which might have prevented prospective candidates from feeling like they were qualified enough to apply.
 
-<div class="image"><img class="shadow" src="../assets/images/projects/hvf/before1.png"><h5>Fun fact, that orange square in the corner turns into a bouncing DVD screensaver once clicked on</h5></div>
+<div class="image"><img class="shadow" src="../assets/images/projects/hvf/before1.png"><h5>Fun fact, if you click on the orange square in the corner, it turns the website into a bouncing DVD screensaver</h5></div>
 <div class="image"><img class="shadow" src="../assets/images/projects/hvf/before2.png"><h5>The colour is reminiscent of a certain political figure</h5></div>
 
 ### It didn't look real
