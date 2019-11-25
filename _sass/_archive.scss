@@ -1,0 +1,286 @@
+.purple {
+    background: #757efc;
+}
+
+.lucy {
+    background: #757efc;
+    padding: 48px 0;
+
+    @include respond(phone) {
+        padding: 16px 0;
+    }
+
+    h1 {
+        font-family: 'ff-tisa-sans-web-pro', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 36px;
+        line-height: 40px;
+        margin-top: 0;
+        margin-bottom: 24px;
+        color: rgba(0, 0, 0, 0.9);
+    }
+
+    h3 {
+        font-family: 'ff-tisa-sans-web-pro', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 8px;
+        color: rgba(0, 0, 0, 0.9);
+    }
+
+    h4 {
+        font-family: 'ff-tisa-sans-web-pro', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-transform: none;
+        letter-spacing: 0;
+        color: rgba(0, 0, 0, 0.9);
+        font-size: 15px;
+    }
+
+    p {
+        font-family: 'ff-tisa-sans-web-pro', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 8px;
+        margin-bottom: 16px;
+        color: rgba(0, 0, 0, 0.8);
+        letter-spacing: -0.01em;
+    }
+
+    a {
+        font-family: 'ff-tisa-sans-web-pro', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        color: #757efc;
+        box-shadow: none;
+        border-bottom: 2px solid #b7c0ee;
+        transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        -webkit-transition: all 0.1s;
+        letter-spacing: -0.03em;
+
+        &:hover {
+            border-bottom: 2px solid #4e68ec;
+            box-shadow: none;
+            color: #4e68ec;
+            background: #d9deff;
+        }
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 720px;
+        padding: 48px;
+        margin: 0 auto;
+        margin-bottom: 24px;
+        background: #fff;
+        box-sizing: border-box;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0 8px 24px;
+
+        @include respond(tablet) {
+            justify-content: center;
+            flex-direction: column-reverse;
+            margin: 0 16px 16px 16px;
+        }
+
+        @include respond(phone) {
+            padding: 40px;
+        }
+
+        .lucy-blurb {
+            max-width: 60%;
+            margin-right: 24px;
+
+            @include respond(tablet) {
+                max-width: 100%;
+            }
+
+            h1 {
+                font-family: 'voltage', sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 60px;
+                color: #fff;
+                background: linear-gradient(270deg, #ff7994, #757efc, #ff7994);
+                background-size: 200% auto;
+                animation: text 5s linear infinite;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                margin: 0;
+                line-height: 72px;
+
+                @include respond(tablet) {
+                    text-align: center;
+                }
+
+                @include respond(phone) {
+                    font-size: 40px;
+                    line-height: 48px;
+                    text-align: left;
+                }
+            }
+        }
+
+        img {
+            display: block;
+            max-width: 35%;
+            box-shadow: rgba(0, 0, 0, 0.2) 0 8px 24px;
+            border-radius: 8px;
+
+            @include respond (tablet) {
+                max-width: 50%;
+                margin: 0 auto;
+                margin-bottom: 24px;
+            }
+        }
+    }
+
+    .container {
+        background: #fff;
+        display: block;
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 48px;
+        background: #fff;
+        box-sizing: border-box;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0 8px 24px;
+
+        @include respond (tablet) {
+            margin: 16px 16px 0 16px;
+        }
+
+        @include respond(phone) {
+            padding: 24px;
+        }
+
+        .recent {
+            margin-bottom: 64px;
+        }
+
+        .entry {
+            display: block;
+            text-decoration: none;
+            border: none;
+
+            .each {
+                display: flex;
+                justify-content: space-between;
+                margin: 0 -16px;
+                padding: 0 16px;
+                color: #757efc;
+                border-bottom: 2px solid #d1d6f0;
+
+                &:hover {
+                    border-bottom: 2px solid #4e68ec;
+                    color: #4e68ec;
+                    background: #d9deff;
+                }
+
+                .date {
+                    display: flex;
+                    align-items: center;
+                    font-family: 'ff-tisa-sans-web-pro', sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 14px;
+                    color: rgba(0, 0, 0, 0.5);
+
+                    @include respond (phone) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes text {
+    to {
+        background-position: 200% center;
+    }
+}
+
+@keyframes border {
+    0% {
+        background-position: 0 0;
+    }
+
+    20% {
+        background-position: 100% 0;
+    }
+
+    40% {
+        background-position: 100% 100%;
+    }
+
+    60% {
+        background-position: 0 100%;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.diary {
+    background: #757efc;
+    min-height: 100%;
+    padding: 48px 0;
+
+    @include respond(phone) {
+        padding: 16px 0;
+    }
+
+    .diary-card {
+        max-width: 720px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 48px;
+        margin: 0 auto;
+        background: #fff;
+        box-shadow: rgba(0, 0, 0, 0.2) 0 8px 24px;
+
+        h3 {
+            margin-top: 24px;
+        }
+
+        @include respond(tablet) {
+            margin: 0 8px;
+            padding: 24px;
+        }
+
+        .diary-nav {
+            display: flex;
+            justify-content: space-between;
+
+            .next {
+                text-align: right;
+            }
+
+            .prev {
+                text-align: left;
+            }
+        }
+    }
+}
+
+.date {
+    font-family: 'ff-tisa-sans-web-pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    display: block;
+    color: rgba(0, 0, 0, 0.5);
+}

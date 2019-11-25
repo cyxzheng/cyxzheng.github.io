@@ -27,12 +27,15 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+include: ['_pages']
 
 # Collections
 collections:
   projects:
     output: true
     permalink: /projects/:name
+  entries:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

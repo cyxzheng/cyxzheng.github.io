@@ -2,8 +2,8 @@
 
 /* colors */
 
-$black: #0D1527;
-$white: rgba(255, 255, 255, 1);
+$black: rgb(16, 26, 48);
+$white: rgba(255, 255, 255, 0.9);
 $pink: #FF9FF0;
 
 /* type styles */
@@ -32,21 +32,21 @@ h3 {
     font-family: "sofia-pro", sans-serif;
     font-style: normal;
     font-weight: 600;
-    text-transform: uppercase;
-    font-size: 18px;
-    line-height: 20px;
-    letter-spacing: 0.03em;
-    color: $pink;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: $white;
 }
 
 h4 {
     font-family: "sofia-pro", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    text-transform: uppercase;
+    font-size: 18px;
     line-height: 20px;
-    letter-spacing: -0.01em;
-    color: $white;
+    letter-spacing: 0.03em;
+    color: $pink;
 }
 
 h5 {

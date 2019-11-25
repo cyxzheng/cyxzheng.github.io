@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130594071-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130594071-1');
+    </script>
+
+    {% if page.title %}
+    <title>{{ page.title }} - Calvin Zheng</title>
+    {% else %}
+    <title>Calvin Zheng</title>
+    {% endif %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/fmg7xqg.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#152425">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body lucy style="margin: 0">
+
+    <section class="lucy">
+        <div class="hero">
+            <div class="lucy-blurb">
+                <h1>Dear Lucy,</h1>
+                <p>This is a collection of memories. So many things happen that we might just forget later, so for the
+                    ones I want us to remember, I write down. You can check this occasionally, because I'll continue to
+                    keep adding to this for as long as I can.</p>
+                <a href="/entries/2018-11-02.html">From the beginning</a>
+            </div>
+            <img src="/assets/images/about/us.jpg">
+        </div>
+        <div class="container">
+            <h1>Latest Entry</h1>
+            {% assign sorted = site.entries | reverse %}
+            {% for post in sorted limit: 1 %}
+            <div class="recent">
+                <h3>{{ post.title }}</h3>
+                <time class="date">{{ post.date | date: "%B %-d, %Y" }}</time>
+                <p>{{ post.content | strip_html | truncatewords:48}}</p>
+                <a href="{{ post.url }}">
+                    Read more
+                </a>
+            </div>
+            {% endfor %}
+            <h1>All Entries</h1>
+            {% assign sorted = site.entries | reverse %}
+            {% for post in sorted offset: 1 %}
+            <a class="entry" href="{{ post.url }}">
+                <div class="each">
+                    <h4>{{ post.title }}</h4>
+                    <time class="date"> {{ post.date | date: "%B %-d, %Y" }}</time>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+
+</body>
+
+</html>

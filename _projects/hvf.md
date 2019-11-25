@@ -11,6 +11,8 @@ nexturl: /microsoft/
 nexttitle: Microsoft 365 &ldquo;What&rsquo;s New&rdquo;
 ---
 
+#### Some background
+
 ## What is HVF Labs?
 
 HVF Labs is Max Levchin’s startup studio, based in San Francisco. HVF stands for “hard, valuable, fun”, which are the three criteria that any project being worked on must live up to.
@@ -19,24 +21,26 @@ Some companies that have come out of HVF are Yelp, Affirm, and Glow.
 
 The finished website is live! You can [check it out here](https://hvflabs.com).
 
-## My role
+### My role
 
 I was responsible for the design of the new website, as well as the implementation. I worked alongside our Chief of Staff to figure out the content and messaging we wanted on the new website.
 
 The entire project took 3 weeks, from the initial kickoff to full implementation.
 
-## Figuring out what to fix
+#### Defining the problem
+
+## What was wrong with the existing website?
 
 We spent a day taking stock of what we currently had, and identified some areas for improvement.
 
 ### What we started with
 
-The old website was meant to resemble a code terminal. It was very text heavy, and very orange. 
+The old website was meant to resemble a code terminal. It was very text heavy, and very orange. We received feedback that the overall feeling of the website was "intimidating", which might have prevented prospective candidates from feeling like they were qualified enough to apply.
 
 <div class="image"><img class="shadow" src="../assets/images/projects/hvf/before1.png"><h5>Fun fact, that orange square in the corner turns into a bouncing DVD screensaver once clicked on</h5></div>
 <div class="image"><img class="shadow" src="../assets/images/projects/hvf/before2.png"><h5>The colour is reminiscent of a certain political figure</h5></div>
 
-### People don’t lie
+### It didn't look real
 
 The website lacked credibility, and that hurt our prospects for potential new hires and entrepreneurs. The Max Levchin name wasn’t always enough.
 
@@ -54,7 +58,7 @@ Some testimonials from people who have visited the website:
 >
 > <p class="quotee">— HVF-exited company employee</p>
 
-### Let’s bounce
+### Let's bounce
 
 We had Google Analytics set up, and focused on a few key metrics. 
 
@@ -63,7 +67,9 @@ We wanted to see the average bounce rate, session duration, and pages per sessio
 <div class="image"><img src="../assets/images/projects/hvf/oldstats.png"></div>
 Of the visitors who didn’t immediately leave our website, the majority went to the About page next. We assumed that these were the small subset of people who were interested enough to learn about what HVF Labs does.
 
-## Our objectives
+#### Our objectives
+
+## What to keep in mind when building this website
 
 ### Attract new talent
 
@@ -73,7 +79,9 @@ We need to hire the people who will become founders of the company they start at
 
 The new website’s content needed to be easily updated without knowledge of how to write HTML.
 
-## Content-based design 
+#### Content-based design 
+
+## What's our message?
 
 Before I went full speed ahead making potential page designs, we sat down to figure out what we wanted to say. 
 
@@ -135,7 +143,9 @@ I also designed a dot grid background, to mimic that of a dotted notebook. I tho
 The about page dives deeper into how HVF Labs operates, and who would provide support and guidance.
 
 <div class="image"><img class="shadow" src="../assets/images/projects/hvf/aboutfinal.png"></div>
+
 ## Implementation
+#### Considerations on the technical side
 
 After finalizing the copy and creating the required visual assets, I went onto build this thing. I used Jekyll, because it allowed for a static website to be built without a database, and could be hooked up to Netlify CMS enabling others to edit site content without knowing how to code.
 
@@ -148,19 +158,21 @@ When new companies exit HVF, they get added to the hero on the home page. I wrot
 Netlify CMS allows for every single piece of copy on the website to be edited. This enables future updates without the need to know code, because all updates can be written in plaintext. 
 
 <div class="image bg"><img src="../assets/images/projects/hvf/markdown.png"></div>
+
 ### Sticky navbar
 
 I’m not well-versed in JavaScript at all, so figuring this out took much longer than I’d like to admit. Still! It’s a cool way to allow users the option to navigate somewhere else no matter where they are on the current page.
 
 <div class="image"><video class="shadow" autoplay muted loop playsinline><source src="/assets/images/projects/hvf/scroll.mp4" type="video/mp4"></video></div>
 
-## The result
+#### The result
+## How did we do?
 
 A month after launch, we checked our analytics again to see how we were doing. By all the metrics that we cared about when we undertook this project, the new website is a big success.
 
 <div class="image"><img src="../assets/images/projects/hvf/newstats.png"><h5>Less bouncy, longer sessions, and more thorough browsing sessions. Nice.</h5></div>
 
-## Takeaways
+## Learnings and Takeaways
 
 As it turns out, building a compelling landing/marketing page is extremely difficult. Visual design and copy are extremely important in how a landing page can build trust with its audience, and should never be neglected. I learned how important it is to figure out who your target demographic is early on, and focus ruthlessly on them. Along the way, I also learned a few cool tricks about keeping static websites scalable, and it’s great to know I don’t need to manually enter in hundreds of `<p></p>` tags when dealing with content heavy websites.
 
