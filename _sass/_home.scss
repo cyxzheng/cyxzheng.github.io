@@ -58,6 +58,10 @@
                 p {
                     margin-top: 8px;
                 }
+
+                @include respond(phone) {
+                    display: none;
+                }
             }
         }
 
