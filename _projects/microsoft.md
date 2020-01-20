@@ -5,7 +5,7 @@ title: Microsoft 365 &ldquo;What&rsquo;s New&rdquo;
 preview: Informing without disrupting.
 permalink: /microsoft/
 cover: /assets/images/projects/microsoft/cover.png
-thumbnail: /assets/images/projects/microsoft/thumbnail.mp4
+video: /assets/images/projects/microsoft/thumbnail2.mp4
 intro: New features are shipped weekly to the M365 Admin Center, and at that frequency, how do we educate users on all of them? Beyond simply directing them to an article that they may or may not read, there had to be a way to teach users without disrupting their work. </br> </br> I designed a new way of contextual alerting for the M365 Design System.
 nexturl: /hvf/
 nexttitle: HVF Labs
@@ -225,6 +225,7 @@ Our welcome banner was in need of a refresh, and I flexed my creative muscles to
 <div class="image"><img class="shadow" src="/assets/images/projects/microsoft/work1.png"></div>
 <div class="image"><img class="shadow" src="/assets/images/projects/microsoft/work2.png"></div>
 <div class="image"><img class="shadow" src="/assets/images/projects/microsoft/work3.png"></div>
+
 ### Catastrophic Error State
 
 I worked with a high school intern to breathe life into an error page. I learned that for even the smallest features, multiple check-offs happen to ensure design consistency. I shifted my illustration to an isometric view, because my original work didn’t comply with the newly developed M365 illustration styles.

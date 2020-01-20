@@ -16,8 +16,6 @@
 .work {
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
 
     @include respond(tablet) {
         display: block;
@@ -25,9 +23,10 @@
 
     .link-container {
         position: relative;
-        width: 50%;
+        width: 100%;
         transition: 0.3s ease-in-out;
         overflow: hidden;
+        margin-bottom: 48px;
 
         &:hover {
             transform: translateY(-24px);
@@ -67,7 +66,7 @@
             margin-bottom: 24px;
         }
 
-        video {
+        video, img {
             display: block;
             width: 100%;
         }

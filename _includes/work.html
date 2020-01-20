@@ -3,9 +3,13 @@
     {% for project in sorted %}
     <div class="link-container">
         <a href="{{ project.permalink | prepend: site.baseurl }}" class="project-thumbnail">
+            {% if project.video %}
             <video autoplay muted loop playsinline>
-                <source src="{{ project.thumbnail | prepend: site.baseurl }}" type="video/mp4">
+                <source src="{{ project.video | prepend: site.baseurl }}" type="video/mp4">
             </video>
+            {% else %}
+            <img src="{{ project.image | prepend: site.baseurl }}">
+            {% endif %}
             <div class="overlay">
                 <div class="overlay-text">
                     <h2>{{ project.title }}</h2>

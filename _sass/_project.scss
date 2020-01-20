@@ -186,6 +186,37 @@
         }
     }
 
+    .img-grid {
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 48px;
+        margin-bottom: 64px;
+
+        h5 {
+            margin-top: 24px;
+            font-style: italic;
+            max-width: 600px;
+        }
+    }
+
+    .img-row {
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        background: #fff;
+
+        .grid-image {
+            width: 25%;
+
+            img, video {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+
     .bg {
         background: $white;
     }

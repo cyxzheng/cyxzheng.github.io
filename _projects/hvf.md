@@ -1,14 +1,14 @@
 ---
 layout: project
 title: HVFLabs.com
-order: 2
+order: 3
 permalink: /hvf/
 preview: I built a website for Max Levchin.
-thumbnail: /assets/images/projects/hvf/thumbnail.mp4
+image: /assets/images/projects/hvf/thumbnail.png
 intro: While brilliant minds work for and start companies at HVF Labs, the website didn&rsquo;t quite reflect that. First impressions matter, and if we wanted to attract talent and look credible, we needed a website to match our track record. </br> </br> This was a three week project where I designed and implemented a new website for HVF Labs.
 cover: /assets/images/projects/hvf/cover.png
-nexturl: /microsoft/
-nexttitle: Microsoft 365 &ldquo;What&rsquo;s New&rdquo;
+nexturl: /365/
+nexttitle: 365 Days of Design
 ---
 
 #### Some background
