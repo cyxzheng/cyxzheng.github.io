@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Property Inspector
-order: 2
+order: 3
 permalink: /property/
 preview: Rethinking the property adjuster workflow.
 image: /assets/images/projects/property/thumbnail.png

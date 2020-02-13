@@ -7,15 +7,15 @@ permalink: /microsoft/
 cover: /assets/images/projects/microsoft/cover.png
 video: /assets/images/projects/microsoft/thumbnail2.mp4
 intro: New features are shipped weekly to the M365 Admin Center, and at that frequency, how do we educate users on all of them? Beyond simply directing them to an article that they may or may not read, there had to be a way to teach users without disrupting their work. </br> </br> I designed a new way of contextual alerting for the M365 Design System.
-nexturl: /hvf/
-nexttitle: HVF Labs
+nexturl: /hmb/
+nexttitle: Halleman-Bradley
 ---
 
 ## My role
 
 This summer (2019), I worked on the M365 Design Direction team. The Design Direction team is responsible for defining the visual language and creating the design system used by all the other M365 design teams. 
 
-Though hired on as a UX Design Intern, I was able to focus my efforts on developing my motion design and visual design skills, thanks to support from my manager [Karina Dion](https://www.linkedin.com/in/karina-dion-2496707/), and my mentor [Sungwon Chang](https://www.linkedin.com/in/sungwon-chang-87a7a658/).
+Though hired on as a UX Design Intern, I was able to focus my efforts on developing my motion design and visual design skills, thanks to support from my manager [Karina Dion](https://www.linkedin.com/in/karina-dion-2496707/){:target="_blank"}, and my mentor [Sungwon Chang](https://www.linkedin.com/in/sungwon-chang-87a7a658/){:target="_blank"}.
 
 #### The challenge
 

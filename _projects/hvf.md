@@ -1,7 +1,7 @@
 ---
 layout: project
 title: HVFLabs.com
-order: 3
+order: 4
 permalink: /hvf/
 preview: I built a website for Max Levchin.
 image: /assets/images/projects/hvf/thumbnail.png
