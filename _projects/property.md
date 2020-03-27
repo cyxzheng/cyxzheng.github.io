@@ -6,7 +6,7 @@ permalink: /property/
 preview: Rethinking the property adjuster workflow.
 image: /assets/images/projects/property/thumbnail.png
 intro: An insurance company in Germany was having trouble with its property damage inspection process. The use of paper forms caused inconsistencies in how the information was being recorded, which impeded claim processing in the back-office. </br> </br> I was part of a project to create a prototype that the client could later demo at a trade show, with the intention of attracting potential buyers and stakeholders. </br></br> In compliance with my NDA, I have omitted confidential information. The designs are a reinterpretation of the original.
-cover: /assets/images/projects/property/cover.png
+cover: /assets/images/projects/property/Cover.png
 nexturl: /hvf/
 nexttitle: HVF Labs
 ---
